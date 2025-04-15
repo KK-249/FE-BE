@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualStudioProject ProjectCreator="Intel Fortran" Keyword="Console Application" Version="11.0" ProjectIdGuid="{551C476B-0027-49B6-A531-6B8635417AFE}">
+	<Platforms>
+		<Platform Name="Win32"/>
+		<Platform Name="x64"/>
+	</Platforms>
+	<Configurations>
+		<Configuration Name="Debug|Win32" UseCompiler="ifortCompiler">
+			<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" WarnInterfaces="true" Traceback="true" BoundsCheck="true" StackFrameCheck="true" RuntimeLibrary="rtMultiThreadedDebugDLL"/>
+			<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" GenerateDebugInformation="true" SubSystem="subSystemConsole"/>
+			<Tool Name="VFResourceCompilerTool"/>
+			<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+			<Tool Name="VFCustomBuildTool"/>
+			<Tool Name="VFPreLinkEventTool"/>
+			<Tool Name="VFPreBuildEventTool"/>
+			<Tool Name="VFPostBuildEventTool"/>
+			<Tool Name="VFManifestTool" SuppressStartupBanner="true"/>
+		</Configuration>
+		<Configuration Name="Debug|x64" UseCompiler="ifxCompiler">
+			<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" WarnInterfaces="true" Traceback="true" BoundsCheck="true" StackFrameCheck="true" RuntimeLibrary="rtMultiThreadedDebugDLL"/>
+			<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" GenerateDebugInformation="true" SubSystem="subSystemConsole"/>
+			<Tool Name="VFResourceCompilerTool"/>
+			<Tool Name="VFMidlTool" SuppressStartupBanner="true" TargetEnvironment="midlTargetAMD64"/>
+			<Tool Name="VFCustomBuildTool"/>
+			<Tool Name="VFPreLinkEventTool"/>
+			<Tool Name="VFPreBuildEventTool"/>
+			<Tool Name="VFPostBuildEventTool"/>
+			<Tool Name="VFManifestTool" SuppressStartupBanner="true"/>
+		</Configuration>
+		<Configuration Name="Release|Win32" UseCompiler="ifortCompiler">
+			<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" RuntimeLibrary="rtMultiThreadedDLL"/>
+			<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" SubSystem="subSystemConsole"/>
+			<Tool Name="VFResourceCompilerTool"/>
+			<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+			<Tool Name="VFCustomBuildTool"/>
+			<Tool Name="VFPreLinkEventTool"/>
+			<Tool Name="VFPreBuildEventTool"/>
+			<Tool Name="VFPostBuildEventTool"/>
+			<Tool Name="VFManifestTool" SuppressStartupBanner="true"/>
+		</Configuration>
+		<Configuration Name="Release|x64" UseCompiler="ifxCompiler">
+			<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" RuntimeLibrary="rtMultiThreadedDLL"/>
+			<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" SubSystem="subSystemConsole"/>
+			<Tool Name="VFResourceCompilerTool"/>
+			<Tool Name="VFMidlTool" SuppressStartupBanner="true" TargetEnvironment="midlTargetAMD64"/>
+			<Tool Name="VFCustomBuildTool"/>
+			<Tool Name="VFPreLinkEventTool"/>
+			<Tool Name="VFPreBuildEventTool"/>
+			<Tool Name="VFPostBuildEventTool"/>
+			<Tool Name="VFManifestTool" SuppressStartupBanner="true"/>
+		</Configuration>
+	</Configurations>
+	<Files>
+		<Filter Name="Header Files" Filter="fi;fd"/>
+		<Filter Name="Resource Files" Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe"/>
+		<Filter Name="Source Files" Filter="f90;for;f;fpp;ftn;def;odl;idl">
+			<File RelativePath="C:\Users\Administrator\Desktop\边界元教材程序\Chapter4\Assmb.for">
+			</File>
+			<File RelativePath="C:\Users\Administrator\Desktop\边界元教材程序\Chapter4\Bc.for">
+			</File>
+			<File RelativePath="C:\Users\Administrator\Desktop\边界元教材程序\Chapter4\Chief.for">
+			</File>
+			<File RelativePath="C:\Users\Administrator\Desktop\边界元教材程序\Chapter4\Elem3.for">
+			</File>
+			<File RelativePath="C:\Users\Administrator\Desktop\边界元教材程序\Chapter4\Elem4.for">
+			</File>
+			<File RelativePath=".\elem8.for"/>
+			<File RelativePath="C:\Users\Administrator\Desktop\边界元教材程序\Chapter4\Field.for">
+			</File>
+			<File RelativePath="C:\Users\Administrator\Desktop\边界元教材程序\Chapter4\Form.for">
+			</File>
+			<File RelativePath="C:\Users\Administrator\Desktop\边界元教材程序\Chapter4\GETINT.FOR">
+			</File>
+			<File RelativePath="C:\Users\Administrator\Desktop\边界元教材程序\Chapter4\Helm3d.for">
+			</File>
+			<File RelativePath="C:\Users\Administrator\Desktop\边界元教材程序\Chapter4\LINPACK.FOR">
+			</File>
+			<File RelativePath="C:\Users\Administrator\Desktop\边界元教材程序\Chapter4\power.for">
+			</File>
+			<File RelativePath="C:\Users\Administrator\Desktop\边界元教材程序\Chapter4\PREP.FOR">
+			</File>
+			<File RelativePath="C:\Users\Administrator\Desktop\边界元教材程序\Chapter4\Proc.for">
+			</File>
+			<File RelativePath="C:\Users\Administrator\Desktop\边界元教材程序\Chapter4\Rbc.for">
+			</File>
+			<File RelativePath="C:\Users\Administrator\Desktop\边界元教材程序\Chapter4\Rchief.for">
+			</File>
+			<File RelativePath="C:\Users\Administrator\Desktop\边界元教材程序\Chapter4\Relem.for">
+			</File>
+			<File RelativePath="C:\Users\Administrator\Desktop\边界元教材程序\Chapter4\Rfield.for">
+			</File>
+			<File RelativePath="C:\Users\Administrator\Desktop\边界元教材程序\Chapter4\Rgene.for">
+			</File>
+			<File RelativePath="C:\Users\Administrator\Desktop\边界元教材程序\Chapter4\Rnode.for">
+			</File>
+			<File RelativePath="C:\Users\Administrator\Desktop\边界元教材程序\Chapter4\Setint.for">
+			</File>
+			<File RelativePath="C:\Users\Administrator\Desktop\边界元教材程序\Chapter4\Shape.for">
+			</File>
+			<File RelativePath="C:\Users\Administrator\Desktop\边界元教材程序\Chapter4\Sing3.for">
+			</File>
+			<File RelativePath="C:\Users\Administrator\Desktop\边界元教材程序\Chapter4\Sing4.for">
+			</File>
+			<File RelativePath="C:\Users\Administrator\Desktop\边界元教材程序\Chapter4\Solchi.for">
+			</File>
+			<File RelativePath="C:\Users\Administrator\Desktop\边界元教材程序\Chapter4\Solout.for">
+			</File>
+			<File RelativePath="C:\Users\Administrator\Desktop\边界元教材程序\Chapter4\Solve.for">
+			</File>
+			<File RelativePath=".\Sing8.for">
+			</File>
+		</Filter>
+		<File RelativePath=".\ReadMe.txt">
+		</File>
+	</Files>
+	<Globals/>
+</VisualStudioProject>
