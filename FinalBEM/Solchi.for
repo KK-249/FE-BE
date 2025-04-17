@@ -1,0 +1,28 @@
+      SUBROUTINE SOLCHI(A,NR,NC,B,AUX,AUX2,IPVT,X,N1,N2)
+C
+C***  Least-squares solver for AX=B
+C
+      COMPLEX A,X,B,AUX,AUX2
+      DIMENSION A(N1,N2),B(N1),AUX(N2),IPVT(N2),AUX2(N1),X(N2)
+ 
+      CALL CQRDC(A, N1, NR, NC, AUX, IPVT, AUX2, 1)
+ 
+      XNORM=CABS(A(1,1))
+      YNORM=CABS(A(NC,NC))
+      IF(YNORM.NE.0) THEN
+        COND=XNORM/YNORM
+        write(6,50) COND
+50      format(1X,'ESTIMATED MATRIX CONDITION NUMBER =',E14.5)
+      END IF
+ 
+      CALL CQRSL(A,N1,NR,NC,AUX,B,AUX2,AUX2,X,AUX2,AUX2,100,INFO)
+ 
+      DO 100 I=1,NC
+        AUX(IPVT(I))=X(I)
+100   CONTINUE
+      DO 200 I=1,NC
+        X(I)=AUX(I)
+200   CONTINUE
+ 
+      RETURN
+      END

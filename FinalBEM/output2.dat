@@ -1,0 +1,2600 @@
+Pulsating Sphere-symmetric model                            
+**** Exterior Problem ****
+Plane of Symmetry Perpendicular to X2 AXIS
+Fluid Density=       1.2100000
+Speed of Sound=     343.0000000
+First Frequency=      54.5900993 Hz
+
+  NODAL POINT COORDINATES:
+
+     NODE #   1     X=   0.000   Y=   0.000   Z=   1.000
+     NODE #   2     X=   0.195   Y=   0.000   Z=   0.981
+     NODE #   3     X=   0.180   Y=   0.075   Z=   0.981
+     NODE #   4     X=   0.138   Y=   0.138   Z=   0.981
+     NODE #   5     X=   0.075   Y=   0.180   Z=   0.981
+     NODE #   6     X=   0.000   Y=   0.195   Z=   0.981
+     NODE #   7     X=  -0.075   Y=   0.180   Z=   0.981
+     NODE #   8     X=  -0.138   Y=   0.138   Z=   0.981
+     NODE #   9     X=  -0.180   Y=   0.075   Z=   0.981
+     NODE #  10     X=  -0.195   Y=   0.000   Z=   0.981
+     NODE #  11     X=   0.383   Y=   0.000   Z=   0.924
+     NODE #  12     X=   0.375   Y=   0.075   Z=   0.924
+     NODE #  13     X=   0.354   Y=   0.146   Z=   0.924
+     NODE #  14     X=   0.318   Y=   0.213   Z=   0.924
+     NODE #  15     X=   0.271   Y=   0.271   Z=   0.924
+     NODE #  16     X=   0.213   Y=   0.318   Z=   0.924
+     NODE #  17     X=   0.146   Y=   0.354   Z=   0.924
+     NODE #  18     X=   0.075   Y=   0.375   Z=   0.924
+     NODE #  19     X=   0.000   Y=   0.383   Z=   0.924
+     NODE #  20     X=  -0.075   Y=   0.375   Z=   0.924
+     NODE #  21     X=  -0.146   Y=   0.354   Z=   0.924
+     NODE #  22     X=  -0.213   Y=   0.318   Z=   0.924
+     NODE #  23     X=  -0.271   Y=   0.271   Z=   0.924
+     NODE #  24     X=  -0.318   Y=   0.213   Z=   0.924
+     NODE #  25     X=  -0.354   Y=   0.146   Z=   0.924
+     NODE #  26     X=  -0.375   Y=   0.075   Z=   0.924
+     NODE #  27     X=  -0.383   Y=   0.000   Z=   0.924
+     NODE #  28     X=   0.556   Y=   0.000   Z=   0.831
+     NODE #  29     X=   0.513   Y=   0.213   Z=   0.831
+     NODE #  30     X=   0.393   Y=   0.393   Z=   0.831
+     NODE #  31     X=   0.213   Y=   0.513   Z=   0.831
+     NODE #  32     X=   0.000   Y=   0.556   Z=   0.831
+     NODE #  33     X=  -0.213   Y=   0.513   Z=   0.831
+     NODE #  34     X=  -0.393   Y=   0.393   Z=   0.831
+     NODE #  35     X=  -0.513   Y=   0.213   Z=   0.831
+     NODE #  36     X=  -0.556   Y=   0.000   Z=   0.831
+     NODE #  37     X=   0.707   Y=   0.000   Z=   0.707
+     NODE #  38     X=   0.694   Y=   0.138   Z=   0.707
+     NODE #  39     X=   0.653   Y=   0.271   Z=   0.707
+     NODE #  40     X=   0.588   Y=   0.393   Z=   0.707
+     NODE #  41     X=   0.500   Y=   0.500   Z=   0.707
+     NODE #  42     X=   0.393   Y=   0.588   Z=   0.707
+     NODE #  43     X=   0.271   Y=   0.653   Z=   0.707
+     NODE #  44     X=   0.138   Y=   0.694   Z=   0.707
+     NODE #  45     X=   0.000   Y=   0.707   Z=   0.707
+     NODE #  46     X=  -0.138   Y=   0.694   Z=   0.707
+     NODE #  47     X=  -0.271   Y=   0.653   Z=   0.707
+     NODE #  48     X=  -0.393   Y=   0.588   Z=   0.707
+     NODE #  49     X=  -0.500   Y=   0.500   Z=   0.707
+     NODE #  50     X=  -0.588   Y=   0.393   Z=   0.707
+     NODE #  51     X=  -0.653   Y=   0.271   Z=   0.707
+     NODE #  52     X=  -0.694   Y=   0.138   Z=   0.707
+     NODE #  53     X=  -0.707   Y=   0.000   Z=   0.707
+     NODE #  54     X=   0.831   Y=   0.000   Z=   0.556
+     NODE #  55     X=   0.768   Y=   0.318   Z=   0.556
+     NODE #  56     X=   0.588   Y=   0.588   Z=   0.556
+     NODE #  57     X=   0.318   Y=   0.768   Z=   0.556
+     NODE #  58     X=   0.000   Y=   0.831   Z=   0.556
+     NODE #  59     X=  -0.318   Y=   0.768   Z=   0.556
+     NODE #  60     X=  -0.588   Y=   0.588   Z=   0.556
+     NODE #  61     X=  -0.768   Y=   0.318   Z=   0.556
+     NODE #  62     X=  -0.831   Y=   0.000   Z=   0.556
+     NODE #  63     X=   0.924   Y=   0.000   Z=   0.383
+     NODE #  64     X=   0.906   Y=   0.180   Z=   0.383
+     NODE #  65     X=   0.854   Y=   0.354   Z=   0.383
+     NODE #  66     X=   0.768   Y=   0.513   Z=   0.383
+     NODE #  67     X=   0.653   Y=   0.653   Z=   0.383
+     NODE #  68     X=   0.513   Y=   0.768   Z=   0.383
+     NODE #  69     X=   0.354   Y=   0.854   Z=   0.383
+     NODE #  70     X=   0.180   Y=   0.906   Z=   0.383
+     NODE #  71     X=   0.000   Y=   0.924   Z=   0.383
+     NODE #  72     X=  -0.180   Y=   0.906   Z=   0.383
+     NODE #  73     X=  -0.354   Y=   0.854   Z=   0.383
+     NODE #  74     X=  -0.513   Y=   0.768   Z=   0.383
+     NODE #  75     X=  -0.653   Y=   0.653   Z=   0.383
+     NODE #  76     X=  -0.768   Y=   0.513   Z=   0.383
+     NODE #  77     X=  -0.854   Y=   0.354   Z=   0.383
+     NODE #  78     X=  -0.906   Y=   0.180   Z=   0.383
+     NODE #  79     X=  -0.924   Y=   0.000   Z=   0.383
+     NODE #  80     X=   0.981   Y=   0.000   Z=   0.195
+     NODE #  81     X=   0.906   Y=   0.375   Z=   0.195
+     NODE #  82     X=   0.694   Y=   0.694   Z=   0.195
+     NODE #  83     X=   0.375   Y=   0.906   Z=   0.195
+     NODE #  84     X=   0.000   Y=   0.981   Z=   0.195
+     NODE #  85     X=  -0.375   Y=   0.906   Z=   0.195
+     NODE #  86     X=  -0.694   Y=   0.694   Z=   0.195
+     NODE #  87     X=  -0.906   Y=   0.375   Z=   0.195
+     NODE #  88     X=  -0.981   Y=   0.000   Z=   0.195
+     NODE #  89     X=   1.000   Y=   0.000   Z=   0.000
+     NODE #  90     X=   0.981   Y=   0.195   Z=   0.000
+     NODE #  91     X=   0.924   Y=   0.383   Z=   0.000
+     NODE #  92     X=   0.831   Y=   0.556   Z=   0.000
+     NODE #  93     X=   0.707   Y=   0.707   Z=   0.000
+     NODE #  94     X=   0.556   Y=   0.831   Z=   0.000
+     NODE #  95     X=   0.383   Y=   0.924   Z=   0.000
+     NODE #  96     X=   0.195   Y=   0.981   Z=   0.000
+     NODE #  97     X=   0.000   Y=   1.000   Z=   0.000
+     NODE #  98     X=  -0.195   Y=   0.981   Z=   0.000
+     NODE #  99     X=  -0.383   Y=   0.924   Z=   0.000
+     NODE # 100     X=  -0.556   Y=   0.831   Z=   0.000
+     NODE # 101     X=  -0.707   Y=   0.707   Z=   0.000
+     NODE # 102     X=  -0.831   Y=   0.556   Z=   0.000
+     NODE # 103     X=  -0.924   Y=   0.383   Z=   0.000
+     NODE # 104     X=  -0.981   Y=   0.195   Z=   0.000
+     NODE # 105     X=  -1.000   Y=   0.000   Z=   0.000
+     NODE # 106     X=   0.981   Y=   0.000   Z=  -0.195
+     NODE # 107     X=   0.906   Y=   0.375   Z=  -0.195
+     NODE # 108     X=   0.694   Y=   0.694   Z=  -0.195
+     NODE # 109     X=   0.375   Y=   0.906   Z=  -0.195
+     NODE # 110     X=   0.000   Y=   0.981   Z=  -0.195
+     NODE # 111     X=  -0.375   Y=   0.906   Z=  -0.195
+     NODE # 112     X=  -0.694   Y=   0.694   Z=  -0.195
+     NODE # 113     X=  -0.906   Y=   0.375   Z=  -0.195
+     NODE # 114     X=  -0.981   Y=   0.000   Z=  -0.195
+     NODE # 115     X=   0.924   Y=   0.000   Z=  -0.383
+     NODE # 116     X=   0.906   Y=   0.180   Z=  -0.383
+     NODE # 117     X=   0.854   Y=   0.354   Z=  -0.383
+     NODE # 118     X=   0.768   Y=   0.513   Z=  -0.383
+     NODE # 119     X=   0.653   Y=   0.653   Z=  -0.383
+     NODE # 120     X=   0.513   Y=   0.768   Z=  -0.383
+     NODE # 121     X=   0.354   Y=   0.854   Z=  -0.383
+     NODE # 122     X=   0.180   Y=   0.906   Z=  -0.383
+     NODE # 123     X=   0.000   Y=   0.924   Z=  -0.383
+     NODE # 124     X=  -0.180   Y=   0.906   Z=  -0.383
+     NODE # 125     X=  -0.354   Y=   0.854   Z=  -0.383
+     NODE # 126     X=  -0.513   Y=   0.768   Z=  -0.383
+     NODE # 127     X=  -0.653   Y=   0.653   Z=  -0.383
+     NODE # 128     X=  -0.768   Y=   0.513   Z=  -0.383
+     NODE # 129     X=  -0.854   Y=   0.354   Z=  -0.383
+     NODE # 130     X=  -0.906   Y=   0.180   Z=  -0.383
+     NODE # 131     X=  -0.924   Y=   0.000   Z=  -0.383
+     NODE # 132     X=   0.831   Y=   0.000   Z=  -0.556
+     NODE # 133     X=   0.768   Y=   0.318   Z=  -0.556
+     NODE # 134     X=   0.588   Y=   0.588   Z=  -0.556
+     NODE # 135     X=   0.318   Y=   0.768   Z=  -0.556
+     NODE # 136     X=   0.000   Y=   0.831   Z=  -0.556
+     NODE # 137     X=  -0.318   Y=   0.768   Z=  -0.556
+     NODE # 138     X=  -0.588   Y=   0.588   Z=  -0.556
+     NODE # 139     X=  -0.768   Y=   0.318   Z=  -0.556
+     NODE # 140     X=  -0.831   Y=   0.000   Z=  -0.556
+     NODE # 141     X=   0.707   Y=   0.000   Z=  -0.707
+     NODE # 142     X=   0.694   Y=   0.138   Z=  -0.707
+     NODE # 143     X=   0.653   Y=   0.271   Z=  -0.707
+     NODE # 144     X=   0.588   Y=   0.393   Z=  -0.707
+     NODE # 145     X=   0.500   Y=   0.500   Z=  -0.707
+     NODE # 146     X=   0.393   Y=   0.588   Z=  -0.707
+     NODE # 147     X=   0.271   Y=   0.653   Z=  -0.707
+     NODE # 148     X=   0.138   Y=   0.694   Z=  -0.707
+     NODE # 149     X=   0.000   Y=   0.707   Z=  -0.707
+     NODE # 150     X=  -0.138   Y=   0.694   Z=  -0.707
+     NODE # 151     X=  -0.271   Y=   0.653   Z=  -0.707
+     NODE # 152     X=  -0.393   Y=   0.588   Z=  -0.707
+     NODE # 153     X=  -0.500   Y=   0.500   Z=  -0.707
+     NODE # 154     X=  -0.588   Y=   0.393   Z=  -0.707
+     NODE # 155     X=  -0.653   Y=   0.271   Z=  -0.707
+     NODE # 156     X=  -0.694   Y=   0.138   Z=  -0.707
+     NODE # 157     X=  -0.707   Y=   0.000   Z=  -0.707
+     NODE # 158     X=   0.556   Y=   0.000   Z=  -0.831
+     NODE # 159     X=   0.513   Y=   0.213   Z=  -0.831
+     NODE # 160     X=   0.393   Y=   0.393   Z=  -0.831
+     NODE # 161     X=   0.213   Y=   0.513   Z=  -0.831
+     NODE # 162     X=   0.000   Y=   0.556   Z=  -0.831
+     NODE # 163     X=  -0.213   Y=   0.513   Z=  -0.831
+     NODE # 164     X=  -0.393   Y=   0.393   Z=  -0.831
+     NODE # 165     X=  -0.513   Y=   0.213   Z=  -0.831
+     NODE # 166     X=  -0.556   Y=   0.000   Z=  -0.831
+     NODE # 167     X=   0.383   Y=   0.000   Z=  -0.924
+     NODE # 168     X=   0.375   Y=   0.075   Z=  -0.924
+     NODE # 169     X=   0.354   Y=   0.146   Z=  -0.924
+     NODE # 170     X=   0.318   Y=   0.213   Z=  -0.924
+     NODE # 171     X=   0.271   Y=   0.271   Z=  -0.924
+     NODE # 172     X=   0.213   Y=   0.318   Z=  -0.924
+     NODE # 173     X=   0.146   Y=   0.354   Z=  -0.924
+     NODE # 174     X=   0.075   Y=   0.375   Z=  -0.924
+     NODE # 175     X=   0.000   Y=   0.383   Z=  -0.924
+     NODE # 176     X=  -0.075   Y=   0.375   Z=  -0.924
+     NODE # 177     X=  -0.146   Y=   0.354   Z=  -0.924
+     NODE # 178     X=  -0.213   Y=   0.318   Z=  -0.924
+     NODE # 179     X=  -0.271   Y=   0.271   Z=  -0.924
+     NODE # 180     X=  -0.318   Y=   0.213   Z=  -0.924
+     NODE # 181     X=  -0.354   Y=   0.146   Z=  -0.924
+     NODE # 182     X=  -0.375   Y=   0.075   Z=  -0.924
+     NODE # 183     X=  -0.383   Y=   0.000   Z=  -0.924
+     NODE # 184     X=   0.195   Y=   0.000   Z=  -0.981
+     NODE # 185     X=   0.180   Y=   0.075   Z=  -0.981
+     NODE # 186     X=   0.138   Y=   0.138   Z=  -0.981
+     NODE # 187     X=   0.075   Y=   0.180   Z=  -0.981
+     NODE # 188     X=   0.000   Y=   0.195   Z=  -0.981
+     NODE # 189     X=  -0.075   Y=   0.180   Z=  -0.981
+     NODE # 190     X=  -0.138   Y=   0.138   Z=  -0.981
+     NODE # 191     X=  -0.180   Y=   0.075   Z=  -0.981
+     NODE # 192     X=  -0.195   Y=   0.000   Z=  -0.981
+     NODE # 193     X=   0.000   Y=   0.000   Z=  -1.000
+
+  ELEMENT CONNECTIVITY :
+
+     ELEMENT #   1   NODES=    1    3    2    2
+     ELEMENT #   2   NODES=    3   13   12   12
+     ELEMENT #   3   NODES=    3   12    2    2
+     ELEMENT #   4   NODES=    2   12   11   11
+     ELEMENT #   5   NODES=    1    4    3    3
+     ELEMENT #   6   NODES=    4   15   14   14
+     ELEMENT #   7   NODES=    4   14    3    3
+     ELEMENT #   8   NODES=    3   14   13   13
+     ELEMENT #   9   NODES=    1    5    4    4
+     ELEMENT #  10   NODES=    5   17   16   16
+     ELEMENT #  11   NODES=    5   16    4    4
+     ELEMENT #  12   NODES=    4   16   15   15
+     ELEMENT #  13   NODES=    1    6    5    5
+     ELEMENT #  14   NODES=    6   19   18   18
+     ELEMENT #  15   NODES=    6   18    5    5
+     ELEMENT #  16   NODES=    5   18   17   17
+     ELEMENT #  17   NODES=    1    7    6    6
+     ELEMENT #  18   NODES=    7   21   20   20
+     ELEMENT #  19   NODES=    7   20    6    6
+     ELEMENT #  20   NODES=    6   20   19   19
+     ELEMENT #  21   NODES=    1    8    7    7
+     ELEMENT #  22   NODES=    8   23   22   22
+     ELEMENT #  23   NODES=    8   22    7    7
+     ELEMENT #  24   NODES=    7   22   21   21
+     ELEMENT #  25   NODES=    1    9    8    8
+     ELEMENT #  26   NODES=    9   25   24   24
+     ELEMENT #  27   NODES=    9   24    8    8
+     ELEMENT #  28   NODES=    8   24   23   23
+     ELEMENT #  29   NODES=    1   10    9    9
+     ELEMENT #  30   NODES=   10   27   26   26
+     ELEMENT #  31   NODES=   10   26    9    9
+     ELEMENT #  32   NODES=    9   26   25   25
+     ELEMENT #  33   NODES=   11   12   28   28
+     ELEMENT #  34   NODES=   12   13   29   29
+     ELEMENT #  35   NODES=   29   39   38   38
+     ELEMENT #  36   NODES=   28   38   37   37
+     ELEMENT #  37   NODES=   28   12   29   38
+     ELEMENT #  38   NODES=   13   14   29   29
+     ELEMENT #  39   NODES=   14   15   30   30
+     ELEMENT #  40   NODES=   30   41   40   40
+     ELEMENT #  41   NODES=   29   40   39   39
+     ELEMENT #  42   NODES=   29   14   30   40
+     ELEMENT #  43   NODES=   15   16   30   30
+     ELEMENT #  44   NODES=   16   17   31   31
+     ELEMENT #  45   NODES=   31   43   42   42
+     ELEMENT #  46   NODES=   30   42   41   41
+     ELEMENT #  47   NODES=   30   16   31   42
+     ELEMENT #  48   NODES=   17   18   31   31
+     ELEMENT #  49   NODES=   18   19   32   32
+     ELEMENT #  50   NODES=   32   45   44   44
+     ELEMENT #  51   NODES=   31   44   43   43
+     ELEMENT #  52   NODES=   31   18   32   44
+     ELEMENT #  53   NODES=   19   20   32   32
+     ELEMENT #  54   NODES=   20   21   33   33
+     ELEMENT #  55   NODES=   33   47   46   46
+     ELEMENT #  56   NODES=   32   46   45   45
+     ELEMENT #  57   NODES=   32   20   33   46
+     ELEMENT #  58   NODES=   21   22   33   33
+     ELEMENT #  59   NODES=   22   23   34   34
+     ELEMENT #  60   NODES=   34   49   48   48
+     ELEMENT #  61   NODES=   33   48   47   47
+     ELEMENT #  62   NODES=   33   22   34   48
+     ELEMENT #  63   NODES=   23   24   34   34
+     ELEMENT #  64   NODES=   24   25   35   35
+     ELEMENT #  65   NODES=   35   51   50   50
+     ELEMENT #  66   NODES=   34   50   49   49
+     ELEMENT #  67   NODES=   34   24   35   50
+     ELEMENT #  68   NODES=   25   26   35   35
+     ELEMENT #  69   NODES=   26   27   36   36
+     ELEMENT #  70   NODES=   36   53   52   52
+     ELEMENT #  71   NODES=   35   52   51   51
+     ELEMENT #  72   NODES=   35   26   36   52
+     ELEMENT #  73   NODES=   37   38   54   54
+     ELEMENT #  74   NODES=   38   39   55   55
+     ELEMENT #  75   NODES=   55   65   64   64
+     ELEMENT #  76   NODES=   54   64   63   63
+     ELEMENT #  77   NODES=   54   38   55   64
+     ELEMENT #  78   NODES=   39   40   55   55
+     ELEMENT #  79   NODES=   40   41   56   56
+     ELEMENT #  80   NODES=   56   67   66   66
+     ELEMENT #  81   NODES=   55   66   65   65
+     ELEMENT #  82   NODES=   55   40   56   66
+     ELEMENT #  83   NODES=   41   42   56   56
+     ELEMENT #  84   NODES=   42   43   57   57
+     ELEMENT #  85   NODES=   57   69   68   68
+     ELEMENT #  86   NODES=   56   68   67   67
+     ELEMENT #  87   NODES=   56   42   57   68
+     ELEMENT #  88   NODES=   43   44   57   57
+     ELEMENT #  89   NODES=   44   45   58   58
+     ELEMENT #  90   NODES=   58   71   70   70
+     ELEMENT #  91   NODES=   57   70   69   69
+     ELEMENT #  92   NODES=   57   44   58   70
+     ELEMENT #  93   NODES=   45   46   58   58
+     ELEMENT #  94   NODES=   46   47   59   59
+     ELEMENT #  95   NODES=   59   73   72   72
+     ELEMENT #  96   NODES=   58   72   71   71
+     ELEMENT #  97   NODES=   58   46   59   72
+     ELEMENT #  98   NODES=   47   48   59   59
+     ELEMENT #  99   NODES=   48   49   60   60
+     ELEMENT # 100   NODES=   60   75   74   74
+     ELEMENT # 101   NODES=   59   74   73   73
+     ELEMENT # 102   NODES=   59   48   60   74
+     ELEMENT # 103   NODES=   49   50   60   60
+     ELEMENT # 104   NODES=   50   51   61   61
+     ELEMENT # 105   NODES=   61   77   76   76
+     ELEMENT # 106   NODES=   60   76   75   75
+     ELEMENT # 107   NODES=   60   50   61   76
+     ELEMENT # 108   NODES=   51   52   61   61
+     ELEMENT # 109   NODES=   52   53   62   62
+     ELEMENT # 110   NODES=   62   79   78   78
+     ELEMENT # 111   NODES=   61   78   77   77
+     ELEMENT # 112   NODES=   61   52   62   78
+     ELEMENT # 113   NODES=   63   64   80   80
+     ELEMENT # 114   NODES=   64   65   81   81
+     ELEMENT # 115   NODES=   81   91   90   90
+     ELEMENT # 116   NODES=   80   90   89   89
+     ELEMENT # 117   NODES=   80   64   81   90
+     ELEMENT # 118   NODES=   65   66   81   81
+     ELEMENT # 119   NODES=   66   67   82   82
+     ELEMENT # 120   NODES=   82   93   92   92
+     ELEMENT # 121   NODES=   81   92   91   91
+     ELEMENT # 122   NODES=   81   66   82   92
+     ELEMENT # 123   NODES=   67   68   82   82
+     ELEMENT # 124   NODES=   68   69   83   83
+     ELEMENT # 125   NODES=   83   95   94   94
+     ELEMENT # 126   NODES=   82   94   93   93
+     ELEMENT # 127   NODES=   82   68   83   94
+     ELEMENT # 128   NODES=   69   70   83   83
+     ELEMENT # 129   NODES=   70   71   84   84
+     ELEMENT # 130   NODES=   84   97   96   96
+     ELEMENT # 131   NODES=   83   96   95   95
+     ELEMENT # 132   NODES=   83   70   84   96
+     ELEMENT # 133   NODES=   71   72   84   84
+     ELEMENT # 134   NODES=   72   73   85   85
+     ELEMENT # 135   NODES=   85   99   98   98
+     ELEMENT # 136   NODES=   84   98   97   97
+     ELEMENT # 137   NODES=   84   72   85   98
+     ELEMENT # 138   NODES=   73   74   85   85
+     ELEMENT # 139   NODES=   74   75   86   86
+     ELEMENT # 140   NODES=   86  101  100  100
+     ELEMENT # 141   NODES=   85  100   99   99
+     ELEMENT # 142   NODES=   85   74   86  100
+     ELEMENT # 143   NODES=   75   76   86   86
+     ELEMENT # 144   NODES=   76   77   87   87
+     ELEMENT # 145   NODES=   87  103  102  102
+     ELEMENT # 146   NODES=   86  102  101  101
+     ELEMENT # 147   NODES=   86   76   87  102
+     ELEMENT # 148   NODES=   77   78   87   87
+     ELEMENT # 149   NODES=   78   79   88   88
+     ELEMENT # 150   NODES=   88  105  104  104
+     ELEMENT # 151   NODES=   87  104  103  103
+     ELEMENT # 152   NODES=   87   78   88  104
+     ELEMENT # 153   NODES=   89   90  106  106
+     ELEMENT # 154   NODES=   90   91  107  107
+     ELEMENT # 155   NODES=  107  117  116  116
+     ELEMENT # 156   NODES=  106  116  115  115
+     ELEMENT # 157   NODES=  106   90  107  116
+     ELEMENT # 158   NODES=   91   92  107  107
+     ELEMENT # 159   NODES=   92   93  108  108
+     ELEMENT # 160   NODES=  108  119  118  118
+     ELEMENT # 161   NODES=  107  118  117  117
+     ELEMENT # 162   NODES=  107   92  108  118
+     ELEMENT # 163   NODES=   93   94  108  108
+     ELEMENT # 164   NODES=   94   95  109  109
+     ELEMENT # 165   NODES=  109  121  120  120
+     ELEMENT # 166   NODES=  108  120  119  119
+     ELEMENT # 167   NODES=  108   94  109  120
+     ELEMENT # 168   NODES=   95   96  109  109
+     ELEMENT # 169   NODES=   96   97  110  110
+     ELEMENT # 170   NODES=  110  123  122  122
+     ELEMENT # 171   NODES=  109  122  121  121
+     ELEMENT # 172   NODES=  109   96  110  122
+     ELEMENT # 173   NODES=   97   98  110  110
+     ELEMENT # 174   NODES=   98   99  111  111
+     ELEMENT # 175   NODES=  111  125  124  124
+     ELEMENT # 176   NODES=  110  124  123  123
+     ELEMENT # 177   NODES=  110   98  111  124
+     ELEMENT # 178   NODES=   99  100  111  111
+     ELEMENT # 179   NODES=  100  101  112  112
+     ELEMENT # 180   NODES=  112  127  126  126
+     ELEMENT # 181   NODES=  111  126  125  125
+     ELEMENT # 182   NODES=  111  100  112  126
+     ELEMENT # 183   NODES=  101  102  112  112
+     ELEMENT # 184   NODES=  102  103  113  113
+     ELEMENT # 185   NODES=  113  129  128  128
+     ELEMENT # 186   NODES=  112  128  127  127
+     ELEMENT # 187   NODES=  112  102  113  128
+     ELEMENT # 188   NODES=  103  104  113  113
+     ELEMENT # 189   NODES=  104  105  114  114
+     ELEMENT # 190   NODES=  114  131  130  130
+     ELEMENT # 191   NODES=  113  130  129  129
+     ELEMENT # 192   NODES=  113  104  114  130
+     ELEMENT # 193   NODES=  115  116  132  132
+     ELEMENT # 194   NODES=  116  117  133  133
+     ELEMENT # 195   NODES=  133  143  142  142
+     ELEMENT # 196   NODES=  132  142  141  141
+     ELEMENT # 197   NODES=  132  116  133  142
+     ELEMENT # 198   NODES=  117  118  133  133
+     ELEMENT # 199   NODES=  118  119  134  134
+     ELEMENT # 200   NODES=  134  145  144  144
+     ELEMENT # 201   NODES=  133  144  143  143
+     ELEMENT # 202   NODES=  133  118  134  144
+     ELEMENT # 203   NODES=  119  120  134  134
+     ELEMENT # 204   NODES=  120  121  135  135
+     ELEMENT # 205   NODES=  135  147  146  146
+     ELEMENT # 206   NODES=  134  146  145  145
+     ELEMENT # 207   NODES=  134  120  135  146
+     ELEMENT # 208   NODES=  121  122  135  135
+     ELEMENT # 209   NODES=  122  123  136  136
+     ELEMENT # 210   NODES=  136  149  148  148
+     ELEMENT # 211   NODES=  135  148  147  147
+     ELEMENT # 212   NODES=  135  122  136  148
+     ELEMENT # 213   NODES=  123  124  136  136
+     ELEMENT # 214   NODES=  124  125  137  137
+     ELEMENT # 215   NODES=  137  151  150  150
+     ELEMENT # 216   NODES=  136  150  149  149
+     ELEMENT # 217   NODES=  136  124  137  150
+     ELEMENT # 218   NODES=  125  126  137  137
+     ELEMENT # 219   NODES=  126  127  138  138
+     ELEMENT # 220   NODES=  138  153  152  152
+     ELEMENT # 221   NODES=  137  152  151  151
+     ELEMENT # 222   NODES=  137  126  138  152
+     ELEMENT # 223   NODES=  127  128  138  138
+     ELEMENT # 224   NODES=  128  129  139  139
+     ELEMENT # 225   NODES=  139  155  154  154
+     ELEMENT # 226   NODES=  138  154  153  153
+     ELEMENT # 227   NODES=  138  128  139  154
+     ELEMENT # 228   NODES=  129  130  139  139
+     ELEMENT # 229   NODES=  130  131  140  140
+     ELEMENT # 230   NODES=  140  157  156  156
+     ELEMENT # 231   NODES=  139  156  155  155
+     ELEMENT # 232   NODES=  139  130  140  156
+     ELEMENT # 233   NODES=  141  142  158  158
+     ELEMENT # 234   NODES=  142  143  159  159
+     ELEMENT # 235   NODES=  159  169  168  168
+     ELEMENT # 236   NODES=  158  168  167  167
+     ELEMENT # 237   NODES=  158  142  159  168
+     ELEMENT # 238   NODES=  143  144  159  159
+     ELEMENT # 239   NODES=  144  145  160  160
+     ELEMENT # 240   NODES=  160  171  170  170
+     ELEMENT # 241   NODES=  159  170  169  169
+     ELEMENT # 242   NODES=  159  144  160  170
+     ELEMENT # 243   NODES=  145  146  160  160
+     ELEMENT # 244   NODES=  146  147  161  161
+     ELEMENT # 245   NODES=  161  173  172  172
+     ELEMENT # 246   NODES=  160  172  171  171
+     ELEMENT # 247   NODES=  160  146  161  172
+     ELEMENT # 248   NODES=  147  148  161  161
+     ELEMENT # 249   NODES=  148  149  162  162
+     ELEMENT # 250   NODES=  162  175  174  174
+     ELEMENT # 251   NODES=  161  174  173  173
+     ELEMENT # 252   NODES=  161  148  162  174
+     ELEMENT # 253   NODES=  149  150  162  162
+     ELEMENT # 254   NODES=  150  151  163  163
+     ELEMENT # 255   NODES=  163  177  176  176
+     ELEMENT # 256   NODES=  162  176  175  175
+     ELEMENT # 257   NODES=  162  150  163  176
+     ELEMENT # 258   NODES=  151  152  163  163
+     ELEMENT # 259   NODES=  152  153  164  164
+     ELEMENT # 260   NODES=  164  179  178  178
+     ELEMENT # 261   NODES=  163  178  177  177
+     ELEMENT # 262   NODES=  163  152  164  178
+     ELEMENT # 263   NODES=  153  154  164  164
+     ELEMENT # 264   NODES=  154  155  165  165
+     ELEMENT # 265   NODES=  165  181  180  180
+     ELEMENT # 266   NODES=  164  180  179  179
+     ELEMENT # 267   NODES=  164  154  165  180
+     ELEMENT # 268   NODES=  155  156  165  165
+     ELEMENT # 269   NODES=  156  157  166  166
+     ELEMENT # 270   NODES=  166  183  182  182
+     ELEMENT # 271   NODES=  165  182  181  181
+     ELEMENT # 272   NODES=  165  156  166  182
+     ELEMENT # 273   NODES=  193  184  185  185
+     ELEMENT # 274   NODES=  184  167  168  168
+     ELEMENT # 275   NODES=  184  168  185  185
+     ELEMENT # 276   NODES=  185  168  169  169
+     ELEMENT # 277   NODES=  193  185  186  186
+     ELEMENT # 278   NODES=  185  169  170  170
+     ELEMENT # 279   NODES=  185  170  186  186
+     ELEMENT # 280   NODES=  186  170  171  171
+     ELEMENT # 281   NODES=  193  186  187  187
+     ELEMENT # 282   NODES=  186  171  172  172
+     ELEMENT # 283   NODES=  186  172  187  187
+     ELEMENT # 284   NODES=  187  172  173  173
+     ELEMENT # 285   NODES=  193  187  188  188
+     ELEMENT # 286   NODES=  187  173  174  174
+     ELEMENT # 287   NODES=  187  174  188  188
+     ELEMENT # 288   NODES=  188  174  175  175
+     ELEMENT # 289   NODES=  193  188  189  189
+     ELEMENT # 290   NODES=  188  175  176  176
+     ELEMENT # 291   NODES=  188  176  189  189
+     ELEMENT # 292   NODES=  189  176  177  177
+     ELEMENT # 293   NODES=  193  189  190  190
+     ELEMENT # 294   NODES=  189  177  178  178
+     ELEMENT # 295   NODES=  189  178  190  190
+     ELEMENT # 296   NODES=  190  178  179  179
+     ELEMENT # 297   NODES=  193  190  191  191
+     ELEMENT # 298   NODES=  190  179  180  180
+     ELEMENT # 299   NODES=  190  180  191  191
+     ELEMENT # 300   NODES=  191  180  181  181
+     ELEMENT # 301   NODES=  193  191  192  192
+     ELEMENT # 302   NODES=  191  181  182  182
+     ELEMENT # 303   NODES=  191  182  192  192
+     ELEMENT # 304   NODES=  192  182  183  183
+
+  BOUNDARY CONDITIONS:
+
+   ELEMENT NO.   1
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.   2
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.   3
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.   4
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.   5
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.   6
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.   7
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.   8
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.   9
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  10
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  11
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  12
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  13
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  14
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  15
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  16
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  17
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  18
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  19
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  20
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  21
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  22
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  23
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  24
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  25
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  26
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  27
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  28
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  29
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  30
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  31
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  32
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  33
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  34
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  35
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  36
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  37
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  4  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  38
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  39
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  40
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  41
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  42
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  4  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  43
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  44
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  45
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  46
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  47
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  4  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  48
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  49
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  50
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  51
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  52
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  4  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  53
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  54
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  55
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  56
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  57
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  4  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  58
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  59
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  60
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  61
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  62
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  4  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  63
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  64
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  65
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  66
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  67
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  4  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  68
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  69
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  70
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  71
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  72
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  4  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  73
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  74
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  75
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  76
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  77
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  4  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  78
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  79
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  80
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  81
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  82
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  4  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  83
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  84
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  85
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  86
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  87
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  4  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  88
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  89
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  90
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  91
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  92
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  4  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  93
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  94
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  95
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  96
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  97
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  4  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  98
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  99
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 100
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 101
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 102
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  4  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 103
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 104
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 105
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 106
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 107
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  4  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 108
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 109
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 110
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 111
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 112
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  4  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 113
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 114
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 115
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 116
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 117
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  4  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 118
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 119
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 120
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 121
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 122
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  4  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 123
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 124
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 125
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 126
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 127
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  4  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 128
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 129
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 130
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 131
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 132
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  4  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 133
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 134
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 135
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 136
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 137
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  4  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 138
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 139
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 140
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 141
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 142
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  4  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 143
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 144
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 145
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 146
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 147
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  4  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 148
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 149
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 150
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 151
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 152
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  4  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 153
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 154
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 155
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 156
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 157
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  4  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 158
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 159
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 160
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 161
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 162
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  4  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 163
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 164
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 165
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 166
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 167
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  4  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 168
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 169
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 170
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 171
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 172
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  4  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 173
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 174
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 175
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 176
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 177
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  4  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 178
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 179
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 180
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 181
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 182
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  4  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 183
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 184
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 185
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 186
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 187
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  4  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 188
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 189
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 190
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 191
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 192
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  4  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 193
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 194
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 195
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 196
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 197
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  4  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 198
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 199
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 200
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 201
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 202
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  4  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 203
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 204
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 205
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 206
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 207
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  4  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 208
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 209
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 210
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 211
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 212
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  4  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 213
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 214
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 215
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 216
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 217
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  4  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 218
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 219
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 220
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 221
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 222
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  4  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 223
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 224
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 225
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 226
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 227
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  4  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 228
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 229
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 230
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 231
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 232
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  4  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 233
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 234
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 235
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 236
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 237
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  4  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 238
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 239
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 240
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 241
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 242
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  4  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 243
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 244
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 245
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 246
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 247
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  4  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 248
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 249
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 250
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 251
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 252
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  4  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 253
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 254
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 255
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 256
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 257
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  4  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 258
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 259
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 260
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 261
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 262
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  4  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 263
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 264
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 265
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 266
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 267
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  4  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 268
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 269
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 270
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 271
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 272
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  4  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 273
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 274
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 275
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 276
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 277
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 278
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 279
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 280
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 281
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 282
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 283
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 284
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 285
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 286
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 287
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 288
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 289
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 290
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 291
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 292
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 293
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 294
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 295
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 296
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 297
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 298
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 299
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 300
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 301
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 302
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 303
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 304
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+ 
+ CHIEF POINTS:
+  X=       0.0000000 Y=       0.0000000 Z=       0.0000000
+ 
+ Frequency=      54.5900993 Hz
+ Wavenumber=       0.9999983
+ ESTIMATED MATRIX CONDITION NUMBER =   0.10884E+01
+
+
+  SOUND PRESSURE ON THE BOUNDARY :
+
+   NODE #   1  P=    207.        207.      AMPL=      292.9    
+   NODE #   2  P=    207.        207.      AMPL=      292.9    
+   NODE #   3  P=    207.        207.      AMPL=      292.9    
+   NODE #   4  P=    207.        207.      AMPL=      292.9    
+   NODE #   5  P=    207.        207.      AMPL=      292.9    
+   NODE #   6  P=    207.        207.      AMPL=      292.9    
+   NODE #   7  P=    207.        207.      AMPL=      292.9    
+   NODE #   8  P=    207.        207.      AMPL=      292.9    
+   NODE #   9  P=    207.        207.      AMPL=      292.9    
+   NODE #  10  P=    207.        207.      AMPL=      292.9    
+   NODE #  11  P=    207.        207.      AMPL=      292.9    
+   NODE #  12  P=    207.        207.      AMPL=      292.9    
+   NODE #  13  P=    207.        207.      AMPL=      292.9    
+   NODE #  14  P=    207.        207.      AMPL=      292.9    
+   NODE #  15  P=    207.        207.      AMPL=      292.9    
+   NODE #  16  P=    207.        207.      AMPL=      292.9    
+   NODE #  17  P=    207.        207.      AMPL=      292.9    
+   NODE #  18  P=    207.        207.      AMPL=      292.9    
+   NODE #  19  P=    207.        207.      AMPL=      292.9    
+   NODE #  20  P=    207.        207.      AMPL=      292.9    
+   NODE #  21  P=    207.        207.      AMPL=      292.9    
+   NODE #  22  P=    207.        207.      AMPL=      292.9    
+   NODE #  23  P=    207.        207.      AMPL=      292.9    
+   NODE #  24  P=    207.        207.      AMPL=      292.9    
+   NODE #  25  P=    207.        207.      AMPL=      292.9    
+   NODE #  26  P=    207.        207.      AMPL=      292.9    
+   NODE #  27  P=    207.        207.      AMPL=      292.9    
+   NODE #  28  P=    207.        207.      AMPL=      292.8    
+   NODE #  29  P=    207.        207.      AMPL=      292.8    
+   NODE #  30  P=    207.        207.      AMPL=      292.8    
+   NODE #  31  P=    207.        207.      AMPL=      292.8    
+   NODE #  32  P=    207.        207.      AMPL=      292.8    
+   NODE #  33  P=    207.        207.      AMPL=      292.8    
+   NODE #  34  P=    207.        207.      AMPL=      292.8    
+   NODE #  35  P=    207.        207.      AMPL=      292.8    
+   NODE #  36  P=    207.        207.      AMPL=      292.8    
+   NODE #  37  P=    207.        207.      AMPL=      292.8    
+   NODE #  38  P=    207.        207.      AMPL=      292.8    
+   NODE #  39  P=    207.        207.      AMPL=      292.8    
+   NODE #  40  P=    207.        207.      AMPL=      292.8    
+   NODE #  41  P=    207.        207.      AMPL=      292.8    
+   NODE #  42  P=    207.        207.      AMPL=      292.8    
+   NODE #  43  P=    207.        207.      AMPL=      292.8    
+   NODE #  44  P=    207.        207.      AMPL=      292.8    
+   NODE #  45  P=    207.        207.      AMPL=      292.8    
+   NODE #  46  P=    207.        207.      AMPL=      292.8    
+   NODE #  47  P=    207.        207.      AMPL=      292.8    
+   NODE #  48  P=    207.        207.      AMPL=      292.8    
+   NODE #  49  P=    207.        207.      AMPL=      292.8    
+   NODE #  50  P=    207.        207.      AMPL=      292.8    
+   NODE #  51  P=    207.        207.      AMPL=      292.8    
+   NODE #  52  P=    207.        207.      AMPL=      292.8    
+   NODE #  53  P=    207.        207.      AMPL=      292.8    
+   NODE #  54  P=    207.        207.      AMPL=      292.7    
+   NODE #  55  P=    207.        207.      AMPL=      292.7    
+   NODE #  56  P=    207.        207.      AMPL=      292.7    
+   NODE #  57  P=    207.        207.      AMPL=      292.7    
+   NODE #  58  P=    207.        207.      AMPL=      292.7    
+   NODE #  59  P=    207.        207.      AMPL=      292.7    
+   NODE #  60  P=    207.        207.      AMPL=      292.7    
+   NODE #  61  P=    207.        207.      AMPL=      292.7    
+   NODE #  62  P=    207.        207.      AMPL=      292.7    
+   NODE #  63  P=    207.        207.      AMPL=      292.7    
+   NODE #  64  P=    207.        207.      AMPL=      292.6    
+   NODE #  65  P=    207.        207.      AMPL=      292.7    
+   NODE #  66  P=    207.        207.      AMPL=      292.6    
+   NODE #  67  P=    207.        207.      AMPL=      292.7    
+   NODE #  68  P=    207.        207.      AMPL=      292.6    
+   NODE #  69  P=    207.        207.      AMPL=      292.7    
+   NODE #  70  P=    207.        207.      AMPL=      292.6    
+   NODE #  71  P=    207.        207.      AMPL=      292.7    
+   NODE #  72  P=    207.        207.      AMPL=      292.6    
+   NODE #  73  P=    207.        207.      AMPL=      292.7    
+   NODE #  74  P=    207.        207.      AMPL=      292.6    
+   NODE #  75  P=    207.        207.      AMPL=      292.7    
+   NODE #  76  P=    207.        207.      AMPL=      292.6    
+   NODE #  77  P=    207.        207.      AMPL=      292.7    
+   NODE #  78  P=    207.        207.      AMPL=      292.6    
+   NODE #  79  P=    207.        207.      AMPL=      292.7    
+   NODE #  80  P=    207.        207.      AMPL=      292.6    
+   NODE #  81  P=    207.        207.      AMPL=      292.6    
+   NODE #  82  P=    207.        207.      AMPL=      292.6    
+   NODE #  83  P=    207.        207.      AMPL=      292.6    
+   NODE #  84  P=    207.        207.      AMPL=      292.6    
+   NODE #  85  P=    207.        207.      AMPL=      292.6    
+   NODE #  86  P=    207.        207.      AMPL=      292.6    
+   NODE #  87  P=    207.        207.      AMPL=      292.6    
+   NODE #  88  P=    207.        207.      AMPL=      292.6    
+   NODE #  89  P=    207.        207.      AMPL=      292.6    
+   NODE #  90  P=    207.        207.      AMPL=      292.6    
+   NODE #  91  P=    207.        207.      AMPL=      292.6    
+   NODE #  92  P=    207.        207.      AMPL=      292.6    
+   NODE #  93  P=    207.        207.      AMPL=      292.6    
+   NODE #  94  P=    207.        207.      AMPL=      292.6    
+   NODE #  95  P=    207.        207.      AMPL=      292.6    
+   NODE #  96  P=    207.        207.      AMPL=      292.6    
+   NODE #  97  P=    207.        207.      AMPL=      292.6    
+   NODE #  98  P=    207.        207.      AMPL=      292.6    
+   NODE #  99  P=    207.        207.      AMPL=      292.6    
+   NODE # 100  P=    207.        207.      AMPL=      292.6    
+   NODE # 101  P=    207.        207.      AMPL=      292.6    
+   NODE # 102  P=    207.        207.      AMPL=      292.6    
+   NODE # 103  P=    207.        207.      AMPL=      292.6    
+   NODE # 104  P=    207.        207.      AMPL=      292.6    
+   NODE # 105  P=    207.        207.      AMPL=      292.6    
+   NODE # 106  P=    207.        207.      AMPL=      292.6    
+   NODE # 107  P=    207.        207.      AMPL=      292.6    
+   NODE # 108  P=    207.        207.      AMPL=      292.6    
+   NODE # 109  P=    207.        207.      AMPL=      292.6    
+   NODE # 110  P=    207.        207.      AMPL=      292.6    
+   NODE # 111  P=    207.        207.      AMPL=      292.6    
+   NODE # 112  P=    207.        207.      AMPL=      292.6    
+   NODE # 113  P=    207.        207.      AMPL=      292.6    
+   NODE # 114  P=    207.        207.      AMPL=      292.6    
+   NODE # 115  P=    207.        207.      AMPL=      292.7    
+   NODE # 116  P=    207.        207.      AMPL=      292.6    
+   NODE # 117  P=    207.        207.      AMPL=      292.7    
+   NODE # 118  P=    207.        207.      AMPL=      292.6    
+   NODE # 119  P=    207.        207.      AMPL=      292.7    
+   NODE # 120  P=    207.        207.      AMPL=      292.6    
+   NODE # 121  P=    207.        207.      AMPL=      292.7    
+   NODE # 122  P=    207.        207.      AMPL=      292.6    
+   NODE # 123  P=    207.        207.      AMPL=      292.7    
+   NODE # 124  P=    207.        207.      AMPL=      292.6    
+   NODE # 125  P=    207.        207.      AMPL=      292.7    
+   NODE # 126  P=    207.        207.      AMPL=      292.6    
+   NODE # 127  P=    207.        207.      AMPL=      292.7    
+   NODE # 128  P=    207.        207.      AMPL=      292.6    
+   NODE # 129  P=    207.        207.      AMPL=      292.7    
+   NODE # 130  P=    207.        207.      AMPL=      292.6    
+   NODE # 131  P=    207.        207.      AMPL=      292.7    
+   NODE # 132  P=    207.        207.      AMPL=      292.7    
+   NODE # 133  P=    207.        207.      AMPL=      292.7    
+   NODE # 134  P=    207.        207.      AMPL=      292.7    
+   NODE # 135  P=    207.        207.      AMPL=      292.7    
+   NODE # 136  P=    207.        207.      AMPL=      292.7    
+   NODE # 137  P=    207.        207.      AMPL=      292.7    
+   NODE # 138  P=    207.        207.      AMPL=      292.7    
+   NODE # 139  P=    207.        207.      AMPL=      292.7    
+   NODE # 140  P=    207.        207.      AMPL=      292.7    
+   NODE # 141  P=    207.        207.      AMPL=      292.8    
+   NODE # 142  P=    207.        207.      AMPL=      292.8    
+   NODE # 143  P=    207.        207.      AMPL=      292.8    
+   NODE # 144  P=    207.        207.      AMPL=      292.8    
+   NODE # 145  P=    207.        207.      AMPL=      292.8    
+   NODE # 146  P=    207.        207.      AMPL=      292.8    
+   NODE # 147  P=    207.        207.      AMPL=      292.8    
+   NODE # 148  P=    207.        207.      AMPL=      292.8    
+   NODE # 149  P=    207.        207.      AMPL=      292.8    
+   NODE # 150  P=    207.        207.      AMPL=      292.8    
+   NODE # 151  P=    207.        207.      AMPL=      292.8    
+   NODE # 152  P=    207.        207.      AMPL=      292.8    
+   NODE # 153  P=    207.        207.      AMPL=      292.8    
+   NODE # 154  P=    207.        207.      AMPL=      292.8    
+   NODE # 155  P=    207.        207.      AMPL=      292.8    
+   NODE # 156  P=    207.        207.      AMPL=      292.8    
+   NODE # 157  P=    207.        207.      AMPL=      292.8    
+   NODE # 158  P=    207.        207.      AMPL=      292.8    
+   NODE # 159  P=    207.        207.      AMPL=      292.8    
+   NODE # 160  P=    207.        207.      AMPL=      292.8    
+   NODE # 161  P=    207.        207.      AMPL=      292.8    
+   NODE # 162  P=    207.        207.      AMPL=      292.8    
+   NODE # 163  P=    207.        207.      AMPL=      292.8    
+   NODE # 164  P=    207.        207.      AMPL=      292.8    
+   NODE # 165  P=    207.        207.      AMPL=      292.8    
+   NODE # 166  P=    207.        207.      AMPL=      292.8    
+   NODE # 167  P=    207.        207.      AMPL=      292.9    
+   NODE # 168  P=    207.        207.      AMPL=      292.9    
+   NODE # 169  P=    207.        207.      AMPL=      292.9    
+   NODE # 170  P=    207.        207.      AMPL=      292.9    
+   NODE # 171  P=    207.        207.      AMPL=      292.9    
+   NODE # 172  P=    207.        207.      AMPL=      292.9    
+   NODE # 173  P=    207.        207.      AMPL=      292.9    
+   NODE # 174  P=    207.        207.      AMPL=      292.9    
+   NODE # 175  P=    207.        207.      AMPL=      292.9    
+   NODE # 176  P=    207.        207.      AMPL=      292.9    
+   NODE # 177  P=    207.        207.      AMPL=      292.9    
+   NODE # 178  P=    207.        207.      AMPL=      292.9    
+   NODE # 179  P=    207.        207.      AMPL=      292.9    
+   NODE # 180  P=    207.        207.      AMPL=      292.9    
+   NODE # 181  P=    207.        207.      AMPL=      292.9    
+   NODE # 182  P=    207.        207.      AMPL=      292.9    
+   NODE # 183  P=    207.        207.      AMPL=      292.9    
+   NODE # 184  P=    207.        207.      AMPL=      292.9    
+   NODE # 185  P=    207.        207.      AMPL=      292.9    
+   NODE # 186  P=    207.        207.      AMPL=      292.9    
+   NODE # 187  P=    207.        207.      AMPL=      292.9    
+   NODE # 188  P=    207.        207.      AMPL=      292.9    
+   NODE # 189  P=    207.        207.      AMPL=      292.9    
+   NODE # 190  P=    207.        207.      AMPL=      292.9    
+   NODE # 191  P=    207.        207.      AMPL=      292.9    
+   NODE # 192  P=    207.        207.      AMPL=      292.9    
+   NODE # 193  P=    207.        207.      AMPL=      292.9    
+
+  VN ON THE BOUNDARY :
+
+
+   ELEMENT #   1  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #   2  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #   3  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #   4  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #   5  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #   6  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #   7  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #   8  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #   9  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  10  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  11  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  12  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  13  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  14  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  15  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  16  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  17  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  18  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  19  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  20  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  21  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  22  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  23  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  24  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  25  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  26  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  27  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  28  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  29  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  30  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  31  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  32  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  33  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  34  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  35  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  36  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  37  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  38  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  39  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  40  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  41  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  42  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  43  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  44  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  45  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  46  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  47  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  48  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  49  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  50  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  51  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  52  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  53  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  54  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  55  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  56  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  57  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  58  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  59  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  60  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  61  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  62  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  63  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  64  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  65  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  66  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  67  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  68  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  69  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  70  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  71  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  72  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  73  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  74  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  75  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  76  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  77  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  78  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  79  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  80  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  81  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  82  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  83  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  84  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  85  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  86  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  87  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  88  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  89  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  90  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  91  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  92  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  93  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  94  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  95  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  96  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  97  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  98  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  99  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 100  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 101  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 102  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 103  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 104  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 105  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 106  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 107  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 108  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 109  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 110  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 111  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 112  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 113  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 114  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 115  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 116  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 117  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 118  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 119  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 120  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 121  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 122  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 123  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 124  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 125  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 126  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 127  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 128  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 129  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 130  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 131  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 132  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 133  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 134  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 135  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 136  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 137  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 138  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 139  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 140  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 141  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 142  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 143  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 144  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 145  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 146  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 147  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 148  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 149  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 150  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 151  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 152  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 153  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 154  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 155  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 156  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 157  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 158  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 159  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 160  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 161  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 162  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 163  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 164  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 165  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 166  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 167  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 168  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 169  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 170  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 171  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 172  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 173  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 174  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 175  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 176  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 177  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 178  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 179  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 180  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 181  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 182  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 183  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 184  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 185  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 186  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 187  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 188  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 189  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 190  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 191  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 192  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 193  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 194  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 195  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 196  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 197  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 198  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 199  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 200  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 201  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 202  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 203  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 204  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 205  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 206  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 207  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 208  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 209  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 210  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 211  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 212  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 213  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 214  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 215  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 216  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 217  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 218  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 219  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 220  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 221  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 222  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 223  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 224  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 225  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 226  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 227  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 228  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 229  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 230  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 231  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 232  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 233  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 234  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 235  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 236  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 237  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 238  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 239  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 240  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 241  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 242  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 243  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 244  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 245  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 246  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 247  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 248  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 249  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 250  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 251  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 252  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 253  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 254  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 255  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 256  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 257  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 258  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 259  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 260  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 261  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 262  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 263  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 264  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 265  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 266  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 267  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 268  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 269  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 270  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 271  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 272  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 273  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 274  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 275  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 276  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 277  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 278  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 279  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 280  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 281  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 282  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 283  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 284  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 285  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 286  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 287  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 288  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 289  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 290  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 291  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 292  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 293  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 294  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 295  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 296  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 297  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 298  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 299  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 300  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 301  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 302  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 303  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 304  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+ 
+  Field-Point Solution:
+ 
+  X=  2.00 Y=  0.00 Z=  0.00 P=  142.343  -31.746 AMPL=  145.840
+  X=  3.00 Y=  0.00 Z=  0.00 P=   33.497  -91.300 AMPL=   97.251
+  X=  0.00 Y=  2.00 Z=  0.00 P=  142.343  -31.746 AMPL=  145.840
+ 
+Total Radiated Sound Power=    1285.5935059
+Radiation Efficiency=       0.4987984
