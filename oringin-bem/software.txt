@@ -1,0 +1,15 @@
+Software details
+
+This CD contains Fortran source codes and example data files for 
+chapters in Boundary Element Acoustics, edited by Tim Wu. © WIT Press 2000. 
+The source codes are universal and can be compiled on any computer 
+with a Fortran compiler.
+
+In the folders Chapter3 and Chapter4, PC-executibles complied from the source 
+codes are also included. The executibles are ready to run and are for PCs only.
+
+Systems requirements:
+32 MB of available RAM
+100 MB of available hard-disk space
+
+

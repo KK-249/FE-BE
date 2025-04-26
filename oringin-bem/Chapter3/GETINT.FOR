@@ -1,0 +1,24 @@
+      SUBROUTINE GETINT(KINDI,NINP,XII,WT)
+      DIMENSION XII(12),WT(12)
+      COMMON /INTE/XI(12,6),W(12,6)
+C
+C-----SELECT GAUSSIAN INTEGRATION POINTS
+C
+      IF(KINDI.EQ.1) THEN
+        NINP=4
+      ELSE
+        IF(KINDI.EQ.2) THEN
+          NINP=6
+        ELSE
+          NINP=8
+        END IF
+      END IF
+
+      NARRAY=NINP/2
+      DO 150 I=1,NINP
+        XII(I)=XI(I,NARRAY)
+        WT(I)=W(I,NARRAY)
+150   CONTINUE
+
+      RETURN
+      END

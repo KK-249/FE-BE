@@ -1,0 +1,13 @@
+      SUBROUTINE RFIELD
+C
+C---- READ IN FIELD POINTS
+C
+      COMMON /FPOINTS/NF,XF(100),YF(100)
+
+      READ(5,*) NF
+      DO 30 I=1,NF
+        READ(5,*) XF(I),YF(I)
+30    CONTINUE
+
+      RETURN
+      END

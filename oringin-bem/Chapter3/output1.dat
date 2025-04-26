@@ -1,0 +1,267 @@
+TEST CASE #1 : Straight duct                                
+**** Interior Problem ****
+Fluid Density=       1.2100000
+Speed of Sound=     343.0000000
+First Frequency=      54.5900993 Hz
+
+  NODAL POINT COORDINATES:
+
+     NODE #   1     X=      0.000   Y=      0.000
+     NODE #   2     X=      0.625   Y=      0.000
+     NODE #   3     X=      1.250   Y=      0.000
+     NODE #   4     X=      1.875   Y=      0.000
+     NODE #   5     X=      2.500   Y=      0.000
+     NODE #   6     X=      3.125   Y=      0.000
+     NODE #   7     X=      3.750   Y=      0.000
+     NODE #   8     X=      4.375   Y=      0.000
+     NODE #   9     X=      5.000   Y=      0.000
+     NODE #  10     X=      5.625   Y=      0.000
+     NODE #  11     X=      6.250   Y=      0.000
+     NODE #  12     X=      6.875   Y=      0.000
+     NODE #  13     X=      7.500   Y=      0.000
+     NODE #  14     X=      8.125   Y=      0.000
+     NODE #  15     X=      8.750   Y=      0.000
+     NODE #  16     X=      9.375   Y=      0.000
+     NODE #  17     X=     10.000   Y=      0.000
+     NODE #  18     X=     10.000   Y=      0.250
+     NODE #  19     X=     10.000   Y=      0.500
+     NODE #  20     X=     10.000   Y=      0.750
+     NODE #  21     X=     10.000   Y=      1.000
+     NODE #  22     X=      9.375   Y=      1.000
+     NODE #  23     X=      8.750   Y=      1.000
+     NODE #  24     X=      8.125   Y=      1.000
+     NODE #  25     X=      7.500   Y=      1.000
+     NODE #  26     X=      6.875   Y=      1.000
+     NODE #  27     X=      6.250   Y=      1.000
+     NODE #  28     X=      5.625   Y=      1.000
+     NODE #  29     X=      5.000   Y=      1.000
+     NODE #  30     X=      4.375   Y=      1.000
+     NODE #  31     X=      3.750   Y=      1.000
+     NODE #  32     X=      3.125   Y=      1.000
+     NODE #  33     X=      2.500   Y=      1.000
+     NODE #  34     X=      1.875   Y=      1.000
+     NODE #  35     X=      1.250   Y=      1.000
+     NODE #  36     X=      0.625   Y=      1.000
+     NODE #  37     X=      0.000   Y=      1.000
+     NODE #  38     X=      0.000   Y=      0.750
+     NODE #  39     X=      0.000   Y=      0.500
+     NODE #  40     X=      0.000   Y=      0.250
+
+  ELEMENT CONNECTIVITY :
+
+     ELEMENT #  1   DEGREE=  2   NODES=  1  2  3
+     ELEMENT #  2   DEGREE=  2   NODES=  3  4  5
+     ELEMENT #  3   DEGREE=  2   NODES=  5  6  7
+     ELEMENT #  4   DEGREE=  2   NODES=  7  8  9
+     ELEMENT #  5   DEGREE=  2   NODES=  9 10 11
+     ELEMENT #  6   DEGREE=  2   NODES= 11 12 13
+     ELEMENT #  7   DEGREE=  2   NODES= 13 14 15
+     ELEMENT #  8   DEGREE=  2   NODES= 15 16 17
+     ELEMENT #  9   DEGREE=  2   NODES= 17 18 19
+     ELEMENT # 10   DEGREE=  2   NODES= 19 20 21
+     ELEMENT # 11   DEGREE=  2   NODES= 21 22 23
+     ELEMENT # 12   DEGREE=  2   NODES= 23 24 25
+     ELEMENT # 13   DEGREE=  2   NODES= 25 26 27
+     ELEMENT # 14   DEGREE=  2   NODES= 27 28 29
+     ELEMENT # 15   DEGREE=  2   NODES= 29 30 31
+     ELEMENT # 16   DEGREE=  2   NODES= 31 32 33
+     ELEMENT # 17   DEGREE=  2   NODES= 33 34 35
+     ELEMENT # 18   DEGREE=  2   NODES= 35 36 37
+     ELEMENT # 19   DEGREE=  2   NODES= 37 38 39
+     ELEMENT # 20   DEGREE=  2   NODES= 39 40  1
+
+  BOUNDARY CONDITIONS:
+
+   ELEMENT NO.  1
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=   0.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=   0.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=   0.0   0.0
+   ELEMENT NO.  2
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=   0.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=   0.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=   0.0   0.0
+   ELEMENT NO.  3
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=   0.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=   0.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=   0.0   0.0
+   ELEMENT NO.  4
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=   0.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=   0.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=   0.0   0.0
+   ELEMENT NO.  5
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=   0.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=   0.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=   0.0   0.0
+   ELEMENT NO.  6
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=   0.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=   0.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=   0.0   0.0
+   ELEMENT NO.  7
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=   0.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=   0.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=   0.0   0.0
+   ELEMENT NO.  8
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=   0.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=   0.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=   0.0   0.0
+   ELEMENT NO.  9
+    LOCAL NODE #  1  CA=   1.0   0.0  CB=-415.0   0.0  CC=   0.0   0.0
+    LOCAL NODE #  2  CA=   1.0   0.0  CB=-415.0   0.0  CC=   0.0   0.0
+    LOCAL NODE #  3  CA=   1.0   0.0  CB=-415.0   0.0  CC=   0.0   0.0
+   ELEMENT NO. 10
+    LOCAL NODE #  1  CA=   1.0   0.0  CB=-415.0   0.0  CC=   0.0   0.0
+    LOCAL NODE #  2  CA=   1.0   0.0  CB=-415.0   0.0  CC=   0.0   0.0
+    LOCAL NODE #  3  CA=   1.0   0.0  CB=-415.0   0.0  CC=   0.0   0.0
+   ELEMENT NO. 11
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=   0.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=   0.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=   0.0   0.0
+   ELEMENT NO. 12
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=   0.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=   0.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=   0.0   0.0
+   ELEMENT NO. 13
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=   0.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=   0.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=   0.0   0.0
+   ELEMENT NO. 14
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=   0.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=   0.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=   0.0   0.0
+   ELEMENT NO. 15
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=   0.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=   0.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=   0.0   0.0
+   ELEMENT NO. 16
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=   0.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=   0.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=   0.0   0.0
+   ELEMENT NO. 17
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=   0.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=   0.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=   0.0   0.0
+   ELEMENT NO. 18
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=   0.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=   0.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=   0.0   0.0
+   ELEMENT NO. 19
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO. 20
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+ 
+ Frequency=      54.5900993 Hz
+ Wavenumber=       0.9999983
+ ESTIMATED MATRIX CONDITION NUMBER =   0.26657E+01
+
+
+ PRESSURE ON THE BOUNDARY :
+
+   NODE #   1  P=   414.339     0.022  AMPL=   414.339
+   NODE #   2  P=   335.727  -242.503  AMPL=   414.150
+   NODE #   3  P=   130.526  -392.676  AMPL=   413.801
+   NODE #   4  P=  -123.840  -394.750  AMPL=   413.719
+   NODE #   5  P=  -331.312  -247.579  AMPL=   413.597
+   NODE #   6  P=  -413.768    -7.087  AMPL=   413.829
+   NODE #   7  P=  -339.728   235.994  AMPL=   413.653
+   NODE #   8  P=  -137.561   389.960  AMPL=   413.512
+   NODE #   9  P=   116.574   396.367  AMPL=   413.154
+   NODE #  10  P=   326.662   253.224  AMPL=   413.316
+   NODE #  11  P=   413.136    14.336  AMPL=   413.384
+   NODE #  12  P=   343.723  -229.877  AMPL=   413.508
+   NODE #  13  P=   144.310  -387.027  AMPL=   413.056
+   NODE #  14  P=  -109.509  -398.051  AMPL=   412.840
+   NODE #  15  P=  -321.873  -258.425  AMPL=   412.778
+   NODE #  16  P=  -412.808   -21.254  AMPL=   413.355
+   NODE #  17  P=  -347.368   224.678  AMPL=   413.696
+   NODE #  18  P=  -347.672   223.021  AMPL=   413.054
+   NODE #  19  P=  -347.696   223.198  AMPL=   413.171
+   NODE #  20  P=  -347.672   223.021  AMPL=   413.054
+   NODE #  21  P=  -347.368   224.678  AMPL=   413.696
+   NODE #  22  P=  -412.808   -21.254  AMPL=   413.355
+   NODE #  23  P=  -321.873  -258.425  AMPL=   412.778
+   NODE #  24  P=  -109.509  -398.051  AMPL=   412.840
+   NODE #  25  P=   144.310  -387.027  AMPL=   413.056
+   NODE #  26  P=   343.723  -229.877  AMPL=   413.508
+   NODE #  27  P=   413.136    14.336  AMPL=   413.384
+   NODE #  28  P=   326.662   253.223  AMPL=   413.316
+   NODE #  29  P=   116.574   396.367  AMPL=   413.154
+   NODE #  30  P=  -137.561   389.960  AMPL=   413.512
+   NODE #  31  P=  -339.728   235.994  AMPL=   413.653
+   NODE #  32  P=  -413.768    -7.087  AMPL=   413.829
+   NODE #  33  P=  -331.312  -247.579  AMPL=   413.597
+   NODE #  34  P=  -123.840  -394.750  AMPL=   413.719
+   NODE #  35  P=   130.526  -392.676  AMPL=   413.801
+   NODE #  36  P=   335.726  -242.504  AMPL=   414.150
+   NODE #  37  P=   414.339     0.022  AMPL=   414.339
+   NODE #  38  P=   413.414    -1.311  AMPL=   413.417
+   NODE #  39  P=   413.461    -1.126  AMPL=   413.462
+   NODE #  40  P=   413.414    -1.311  AMPL=   413.417
+
+ NORMAL VELOCITY ON THE BOUNDARY :
+
+
+   ELEMENT #  1  VN=   0.00E+00   0.00E+00   0.00E+00   0.00E+00   0.00E+00   0.00E+00
+
+   ELEMENT #  2  VN=   0.00E+00   0.00E+00   0.00E+00   0.00E+00   0.00E+00   0.00E+00
+
+   ELEMENT #  3  VN=   0.00E+00   0.00E+00   0.00E+00   0.00E+00   0.00E+00   0.00E+00
+
+   ELEMENT #  4  VN=   0.00E+00   0.00E+00   0.00E+00   0.00E+00   0.00E+00   0.00E+00
+
+   ELEMENT #  5  VN=   0.00E+00   0.00E+00   0.00E+00   0.00E+00   0.00E+00   0.00E+00
+
+   ELEMENT #  6  VN=   0.00E+00   0.00E+00   0.00E+00   0.00E+00   0.00E+00   0.00E+00
+
+   ELEMENT #  7  VN=   0.00E+00   0.00E+00   0.00E+00   0.00E+00   0.00E+00   0.00E+00
+
+   ELEMENT #  8  VN=   0.00E+00   0.00E+00   0.00E+00   0.00E+00   0.00E+00   0.00E+00
+
+   ELEMENT #  9  VN=  -0.84E+00   0.54E+00  -0.84E+00   0.54E+00  -0.84E+00   0.54E+00
+
+   ELEMENT # 10  VN=  -0.84E+00   0.54E+00  -0.84E+00   0.54E+00  -0.84E+00   0.54E+00
+
+   ELEMENT # 11  VN=   0.00E+00   0.00E+00   0.00E+00   0.00E+00   0.00E+00   0.00E+00
+
+   ELEMENT # 12  VN=   0.00E+00   0.00E+00   0.00E+00   0.00E+00   0.00E+00   0.00E+00
+
+   ELEMENT # 13  VN=   0.00E+00   0.00E+00   0.00E+00   0.00E+00   0.00E+00   0.00E+00
+
+   ELEMENT # 14  VN=   0.00E+00   0.00E+00   0.00E+00   0.00E+00   0.00E+00   0.00E+00
+
+   ELEMENT # 15  VN=   0.00E+00   0.00E+00   0.00E+00   0.00E+00   0.00E+00   0.00E+00
+
+   ELEMENT # 16  VN=   0.00E+00   0.00E+00   0.00E+00   0.00E+00   0.00E+00   0.00E+00
+
+   ELEMENT # 17  VN=   0.00E+00   0.00E+00   0.00E+00   0.00E+00   0.00E+00   0.00E+00
+
+   ELEMENT # 18  VN=   0.00E+00   0.00E+00   0.00E+00   0.00E+00   0.00E+00   0.00E+00
+
+   ELEMENT # 19  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT # 20  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+ 
+  Field-Point Solution:
+ 
+  X=  0.50  Y=  0.50  P=  363.070 -199.189  AMPL=  414.121
+  X=  1.00  Y=  0.50  P=  223.868 -347.599  AMPL=  413.451
+  X=  1.50  Y=  0.50  P=   28.739 -412.211  AMPL=  413.212
+  X=  2.00  Y=  0.50  P= -171.674 -376.199  AMPL=  413.518
+  X=  2.50  Y=  0.50  P= -330.721 -247.174  AMPL=  412.882
+  X=  3.00  Y=  0.50  P= -409.496  -58.230  AMPL=  413.615
+  X=  3.50  Y=  0.50  P= -387.288  143.964  AMPL=  413.180
+  X=  4.00  Y=  0.50  P= -270.022  312.542  AMPL=  413.031
+  X=  4.50  Y=  0.50  P=  -88.180  403.719  AMPL=  413.237
+  X=  5.00  Y=  0.50  P=  116.345  395.665  AMPL=  412.416
+  X=  5.50  Y=  0.50  P=  292.590  291.586  AMPL=  413.076
+  X=  6.00  Y=  0.50  P=  396.013  116.457  AMPL=  412.781
+  X=  6.50  Y=  0.50  P=  403.262  -88.648  AMPL=  412.890
+  X=  7.00  Y=  0.50  P=  312.473 -270.422  AMPL=  413.240
+  X=  7.50  Y=  0.50  P=  144.068 -386.306  AMPL=  412.295
+  X=  8.00  Y=  0.50  P=  -59.279 -408.370  AMPL=  412.650
+  X=  8.50  Y=  0.50  P= -246.989 -329.962  AMPL=  412.163
+  X=  9.00  Y=  0.50  P= -375.800 -170.013  AMPL=  412.468
+  X=  9.50  Y=  0.50  P= -412.348   29.870  AMPL=  413.428

@@ -1,0 +1,125 @@
+TEST CASE #2 Pulsating Cylinder                             
+**** Exterior Problem ****
+Fluid Density=       1.2100000
+Speed of Sound=     343.0000000
+First Frequency=     131.2350006 Hz
+
+  NODAL POINT COORDINATES:
+
+     NODE #   1     X=      0.000   Y=     -1.000
+     NODE #   2     X=     -0.383   Y=     -0.924
+     NODE #   3     X=     -0.707   Y=     -0.707
+     NODE #   4     X=     -0.924   Y=     -0.383
+     NODE #   5     X=     -1.000   Y=      0.000
+     NODE #   6     X=     -0.924   Y=      0.383
+     NODE #   7     X=     -0.707   Y=      0.707
+     NODE #   8     X=     -0.383   Y=      0.924
+     NODE #   9     X=      0.000   Y=      1.000
+     NODE #  10     X=      0.383   Y=      0.924
+     NODE #  11     X=      0.707   Y=      0.707
+     NODE #  12     X=      0.924   Y=      0.383
+     NODE #  13     X=      1.000   Y=      0.000
+     NODE #  14     X=      0.924   Y=     -0.383
+     NODE #  15     X=      0.707   Y=     -0.707
+     NODE #  16     X=      0.383   Y=     -0.924
+
+  ELEMENT CONNECTIVITY :
+
+     ELEMENT #  1   DEGREE=  2   NODES=  1  2  3
+     ELEMENT #  2   DEGREE=  2   NODES=  3  4  5
+     ELEMENT #  3   DEGREE=  2   NODES=  5  6  7
+     ELEMENT #  4   DEGREE=  2   NODES=  7  8  9
+     ELEMENT #  5   DEGREE=  2   NODES=  9 10 11
+     ELEMENT #  6   DEGREE=  2   NODES= 11 12 13
+     ELEMENT #  7   DEGREE=  2   NODES= 13 14 15
+     ELEMENT #  8   DEGREE=  2   NODES= 15 16  1
+
+  BOUNDARY CONDITIONS:
+
+   ELEMENT NO.  1
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  2
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  3
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  4
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  5
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  6
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  7
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+   ELEMENT NO.  8
+    LOCAL NODE #  1  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  2  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+    LOCAL NODE #  3  CA=   0.0   0.0  CB=   1.0   0.0  CC=  -1.0   0.0
+ 
+ CHIEF POINTS:
+  X=       0.0000000 Y=       0.0000000
+ 
+ Frequency=     131.2350006 Hz
+ Wavenumber=       2.4040034
+ ESTIMATED MATRIX CONDITION NUMBER =   0.13421E+01
+
+
+ PRESSURE ON THE BOUNDARY :
+
+   NODE #   1  P=   392.289    77.708  AMPL=   399.911
+   NODE #   2  P=   392.230    77.647  AMPL=   399.841
+   NODE #   3  P=   392.385    77.827  AMPL=   400.029
+   NODE #   4  P=   392.230    77.647  AMPL=   399.842
+   NODE #   5  P=   392.289    77.708  AMPL=   399.911
+   NODE #   6  P=   392.230    77.647  AMPL=   399.841
+   NODE #   7  P=   392.386    77.827  AMPL=   400.030
+   NODE #   8  P=   392.230    77.647  AMPL=   399.841
+   NODE #   9  P=   392.289    77.708  AMPL=   399.911
+   NODE #  10  P=   392.230    77.647  AMPL=   399.842
+   NODE #  11  P=   392.386    77.827  AMPL=   400.029
+   NODE #  12  P=   392.230    77.647  AMPL=   399.841
+   NODE #  13  P=   392.289    77.708  AMPL=   399.911
+   NODE #  14  P=   392.230    77.647  AMPL=   399.842
+   NODE #  15  P=   392.385    77.827  AMPL=   400.029
+   NODE #  16  P=   392.230    77.647  AMPL=   399.841
+
+ NORMAL VELOCITY ON THE BOUNDARY :
+
+
+   ELEMENT #  1  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  2  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  3  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  4  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  5  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  6  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  7  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+
+   ELEMENT #  8  VN=  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00  -0.10E+01   0.00E+00
+ 
+  Field-Point Solution:
+ 
+  X=  2.00  Y=  0.00  P= -174.865 -224.444  AMPL=  284.522
+  X=  0.00  Y=  2.00  P= -174.865 -224.444  AMPL=  284.522
+ 
+Total Length of Boundary=       6.2807450
+Total Radiated Sound Power=    1231.8620605
+Radiation Efficiency=       0.9451514

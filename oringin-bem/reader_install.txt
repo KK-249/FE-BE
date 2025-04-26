@@ -1,0 +1,68 @@
+Acrobat® Reader 4
+
+For your convenience, we have included the above software to enable you to read our 
+2000 Catalogue. The following three platforms have been included: Windows, Macintosh 
+and Unix. Please go to the appropriate folder to install the program.
+  
+Windows 95/98 and Windows NT
+Can be found in the adobe/win/ folder. Run the .exe program for installation
+
+Installation requirements:
+* 486™ or Pentium® processor-based personal computer
+* Microsoft® Windows® 95, Windows 98, or Windows NT® 4.0 with Service Pack 3 or later
+* 10 MB of available RAM on Windows 95 and Windows 98 (16 MB recommended)
+* 16 MB of available RAM on Windows NT (24 MB recommended)
+* 10 MB of available hard-disk space
+
+
+Macintosh
+Can be found in the adobe/mac/ folder. Run the Reader and Search Installer to 
+install the program
+
+Installation requirements:
+* Apple Power Macintosh or compatible computer
+* Mac OS software version 7.1.2 or later
+* 4.5 MB of available RAM (6.5 MB recommended)
+* 8 MB of available hard-disk space
+
+
+UNIX
+Can be found in the adobe/unix/ folder. The following 5 platforms have been included:
+
+DEC
+* DECOSF/1 version 4 or later
+* 32 MB of available RAM
+* 12 MB of available hard-disk space
+
+HP-UX
+* HP 9000 Series Workstations model 700 or higher
+* Hewlett-Packard HP-UX version 9.0.3 or later
+* X Windows System X11R5 with HP-VUE or Common Desktop Environment (CDE) 1.0 or later
+* 32 MB of available RAM
+* 12 MB of available hard-disk space
+
+IBM AIX
+* IBM AIX® 4.1 or later
+* Common Desktop Environment (CDE) 1.0 or Motif®
+* 32 MB of available RAM
+* 12 MB of available hard-disk space
+
+SGI IRIX 
+* Silicon Graphics® IRIX™ 5.3 or later
+* 32 MB of available RAM
+* 12 MB of available hard-disk space
+
+Solaris
+* Sun™ Solaris™ 2.3 or later
+* Sun OpenWindows™ 3.0 or later, Motif 1.2.3 or later, OpenLook 3.0, or 
+  Common Desktop Environment (CDE) 1.0 or later
+* 32 MB of available RAM
+* 12 MB of available hard-disk space
+* NOTE: Acrobat Reader will not run under SunOS™ or Solaris 2.0, 2.1 or 2.2
+
+
+For further help, visit the Adobe website at http://www.adobe.co.uk or http://www.adobe.com
+Alternatively contact witpress@witpress.com
+
+Acrobat® Reader copyright © 1987-2000 Adobe Systems Incorporated. All rights reserved. 
+Adobe and Acrobat are trademarks of Adobe Systems Incorporated. 
