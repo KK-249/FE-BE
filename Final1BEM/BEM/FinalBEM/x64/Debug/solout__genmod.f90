@@ -1,0 +1,9 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Fri May  9 20:19:06 2025
+        ! This source file is for reference only and may not completely
+        ! represent the generated interface used by the compiler.
+        MODULE SOLOUT__genmod
+          INTERFACE 
+            SUBROUTINE SOLOUT
+            END SUBROUTINE SOLOUT
+          END INTERFACE 
+        END MODULE SOLOUT__genmod
