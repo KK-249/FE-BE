@@ -1,0 +1,21 @@
+Example 1 : 3D INT, UNIT CUBE                               
+ **** Exterior Problem ****
+ Fluid Density=   1000.000    
+ Speed of Sound=   1500.000    
+ First Frequency=   50.00000      Hz
+  
+  Frequency=   50.00000      Hz
+  Wavenumber=  0.2094393    
+ ESTIMATED MATRIX CONDITION NUMBER =   0.67491E+08
+  
+   Field-Point Solution:
+  
+  X=  1.00 Y=  1.00 Z=  0.00 P=        0.39119       -1.28485 AMPL=    1.343
+  X=  1.00 Y=  1.00 Z=  1.00 P=        1.08450       -1.99818 AMPL=    2.274
+  X=  1.00 Y=  1.00 Z=  2.00 P=        0.48633       -2.09865 AMPL=    2.154
+  X=  1.00 Y=  1.00 Z=  3.00 P=        0.33873       -0.72457 AMPL=    0.800
+  X=  1.00 Y=  1.00 Z=  4.00 P=        1.13674        1.48252 AMPL=    1.868
+  X=  1.00 Y=  1.00 Z=  5.00 P=        0.95100        3.60255 AMPL=    3.726
+  
+ Total Radiated Sound Power=   2788.695    
+ Radiation Efficiency=  1.6075190E-10

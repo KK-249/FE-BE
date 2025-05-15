@@ -1,0 +1,20 @@
+ **** Exterior Problem ****
+ Fluid Density=   1000.000    
+ Speed of Sound=   1500.000    
+ First Frequency=   2.000000      Hz
+  
+  Frequency=   2.000000      Hz
+  Wavenumber=  8.3775735E-03
+ ESTIMATED MATRIX CONDITION NUMBER =   0.63015E+08
+  
+   Field-Point Solution:
+  
+  X=  1.00 Y=  1.00 Z=  0.00 P=        0.00011       -0.00000 AMPL=    0.000
+  X=  1.00 Y=  1.00 Z=  1.00 P=       -0.00019       -0.00000 AMPL=    0.000
+  X=  1.00 Y=  1.00 Z=  2.00 P=       -0.00034       -0.00000 AMPL=    0.000
+  X=  1.00 Y=  1.00 Z=  3.00 P=       -0.00014        0.00000 AMPL=    0.000
+  X=  1.00 Y=  1.00 Z=  4.00 P=       -0.00002        0.00002 AMPL=    0.000
+  X=  1.00 Y=  1.00 Z=  5.00 P=       -0.00001        0.00003 AMPL=    0.000
+  
+ Total Radiated Sound Power=  1.5582740E-06
+ Radiation Efficiency=  1.8694829E-11

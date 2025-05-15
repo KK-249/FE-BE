@@ -1,0 +1,341 @@
+function [KA,MA,T1,KB,MB,T2]=CoandCy(nn)
+No_INTpoint_x=4;
+% nn=1000;
+No_INTpoint_y=4;
+No_INTpoint_z=4;
+a=0.01;
+A=0.0025;   %圆锥壳半个单元长度
+t=0.001;
+R=0.07;
+R0=0.04115;
+alpha=30*pi/180;
+Theta=9*pi/180;
+% alpha=30*pi/180;
+density=7850;
+Niu=0.3;
+E=200e9;
+h=t;
+
+jdx=10;               %number of nodes in x direction
+jdx1=2*jdx+1;
+jdy=40;               %number of nodes in y direction
+jdy1=2*jdy;
+jdy2=jdy;
+k(1:5*(jdy1*(jdx+1)+jdy*jdx),1:5*(jdy1*(jdx+1)+jdy*jdx))=0;     %system stiffness matrix
+m(1:5*(jdy1*(jdx+1)+jdy*jdx),1:5*(jdy1*(jdx+1)+jdy*jdx))=0;    %system mass matrix
+
+en(1:(jdx)*(jdy),1:8)=0;       %element node  
+for ni=1:jdy
+    for nj=1:jdx
+        if ni~=jdy
+        en(ni+(nj-1)*(jdy),4)=(2*ni-1)+(nj-1)*jdy1+(nj-1)*jdy2;
+        en(ni+(nj-1)*(jdy),7)=2*ni+(nj-1)*jdy1+(nj-1)*jdy2;
+        en(ni+(nj-1)*(jdy),3)=2*ni+1+(nj-1)*jdy1+(nj-1)*jdy2;
+        en(ni+(nj-1)*(jdy),1)=(2*ni-1)+(nj)*jdy1+(nj)*jdy2;
+        en(ni+(nj-1)*(jdy),5)=2*ni+(nj)*jdy1+(nj)*jdy2;
+        en(ni+(nj-1)*(jdy),2)=2*ni+1+(nj)*jdy1+(nj)*jdy2;
+        
+        elseif ni==jdy
+        en(ni+(nj-1)*(jdy),4)=(2*ni-1)+(nj-1)*jdy1+(nj-1)*jdy2;
+        en(ni+(nj-1)*(jdy),7)=2*ni+(nj-1)*jdy1+(nj-1)*jdy2;
+        en(ni+(nj-1)*(jdy),3)=1+(nj-1)*jdy1+(nj-1)*jdy2;
+        en(ni+(nj-1)*(jdy),1)=(2*ni-1)+(nj)*jdy1+(nj)*jdy2;
+        en(ni+(nj-1)*(jdy),5)=2*ni+(nj)*jdy1+(nj)*jdy2;
+        en(ni+(nj-1)*(jdy),2)=1+(nj)*jdy1+(nj)*jdy2;
+        
+       end
+   end
+end
+for ni=1:jdy
+    for nj=1:jdx
+        if ni~=jdy
+        en(ni+(nj-1)*(jdy),8)=ni+(nj)*jdy1+(nj-1)*jdy2;
+        en(ni+(nj-1)*(jdy),6)=ni+1+(nj)*jdy1+(nj-1)*jdy2;
+
+        
+        elseif ni==jdy
+        en(ni+(nj-1)*(jdy),8)=ni+(nj)*jdy1+(nj-1)*jdy2;
+        en(ni+(nj-1)*(jdy),6)=1+(nj)*jdy1+(nj-1)*jdy2;
+        
+         end
+   end
+end
+
+for ni=1:jdy1  %80 圆锥壳的全局坐标上表面
+    for nj=1:jdx+1      %11
+    
+        coo(ni+(nj-1)*(jdy1+jdy2),1)=2*A*(nj-1)-0.5*h*sin(alpha);       
+        coo(ni+(nj-1)*(jdy1+jdy2),2)=((R0+2*A*(nj-1)*tan(alpha))+0.5*h*cos(alpha))*sin(0.5*Theta*(ni-1));   
+        coo(ni+(nj-1)*(jdy1+jdy2),3)=((R0+2*A*(nj-1)*tan(alpha))+0.5*h*cos(alpha))*cos(0.5*Theta*(ni-1));
+%         ZHU(ni+(nj-1)*(jdy1+jdy2),1)=((R0+2*A*(nj-1)*tan(alpha)))*Theta;
+%         ZHU(ni+(nj-1)*(jdy1+jdy2),2)=(2*A*cos(alpha));
+        
+    end
+end
+for ni=1:jdy2       %40
+    for nj=1:jdx          %10
+             
+        coo(ni+nj*(jdy1)+(nj-1)*(jdy2),1)=A+2*A*(nj-1)-0.5*h*sin(alpha);       
+        coo(ni+nj*(jdy1)+(nj-1)*(jdy2),2)=((R0+(A+2*A*(nj-1))*tan(alpha))+0.5*h*cos(alpha))*sin(Theta*(ni-1));   
+        coo(ni+nj*(jdy1)+(nj-1)*(jdy2),3)=((R0+(A+2*A*(nj-1))*tan(alpha))+0.5*h*cos(alpha))*cos(Theta*(ni-1));
+%         ZHU(ni+nj*(jdy1)+(nj-1)*(jdy2),1)=((R0+(A+2*A*(nj-1))*tan(alpha)))*Theta;
+%         ZHU(ni+nj*(jdy1)+(nj-1)*(jdy2),2)=(2*A*cos(alpha));
+    end
+end
+    
+%圆柱壳的全局坐标   上表面
+for ni=1:jdy1
+    for nj=jdx+2:jdx+1
+%              2*a*(21-10-1)
+        coo(ni+(nj-1)*(jdy1+jdy2),1)=2*a*(nj-jdxp-1)+2*A*(jdxp);       
+        coo(ni+(nj-1)*(jdy1+jdy2),2)=(R+0.5*h)*sin(0.5*Theta*(ni-1));   
+        coo(ni+(nj-1)*(jdy1+jdy2),3)=(R+0.5*h)*cos(0.5*Theta*(ni-1));
+%         ZHU(ni+(nj-1)*(jdy1+jdy2),1)=(R)*Theta;
+%         ZHU(ni+(nj-1)*(jdy1+jdy2),2)=2*a;
+    end
+end
+
+for ni=1:jdy2
+    for nj=jdx+1:jdx
+             
+        coo(ni+nj*(jdy1)+(nj-1)*(jdy2),1)=a+2*a*(nj-jdxp-1)+2*A*(jdxp);       
+        coo(ni+nj*(jdy1)+(nj-1)*(jdy2),2)=(R+0.5*h)*sin(Theta*(ni-1));   
+        coo(ni+nj*(jdy1)+(nj-1)*(jdy2),3)=(R+0.5*h)*cos(Theta*(ni-1));
+%         ZHU(ni+nj*(jdy1)+(nj-1)*(jdy2),1)=(R)*Theta;
+%         ZHU(ni+nj*(jdy1)+(nj-1)*(jdy2),2)=2*a;
+    end
+end
+
+
+for ni=1:jdy1
+    for nj=1:jdx+1
+             
+        co(ni+(nj-1)*(jdy1+jdy2),1)=2*A*(nj-1)+0.5*h*sin(alpha);       
+        co(ni+(nj-1)*(jdy1+jdy2),2)=((R0+2*A*(nj-1)*tan(alpha))-0.5*h*cos(alpha))*sin(0.5*Theta*(ni-1));   
+        co(ni+(nj-1)*(jdy1+jdy2),3)=((R0+2*A*(nj-1)*tan(alpha))-0.5*h*cos(alpha))*cos(0.5*Theta*(ni-1));
+
+
+    end
+end
+
+for ni=1:jdy2
+    for nj=1:jdx
+             
+        co(ni+nj*(jdy1)+(nj-1)*(jdy2),1)=A+2*A*(nj-1)+0.5*h*sin(alpha);       
+        co(ni+nj*(jdy1)+(nj-1)*(jdy2),2)=((R0+(A+2*A*(nj-1))*tan(alpha))-0.5*h*cos(alpha))*sin(Theta*(ni-1));   
+        co(ni+nj*(jdy1)+(nj-1)*(jdy2),3)=((R0+(A+2*A*(nj-1))*tan(alpha))-0.5*h*cos(alpha))*cos(Theta*(ni-1));
+
+    end
+end
+for ni=1:jdy1
+    for nj=jdx+2:jdx+1
+             
+        co(ni+(nj-1)*(jdy1+jdy2),1)=2*a*(nj-jdxp-1)+2*A*(jdxp);     
+        co(ni+(nj-1)*(jdy1+jdy2),2)=(R-0.5*h)*sin(0.5*Theta*(ni-1));   
+        co(ni+(nj-1)*(jdy1+jdy2),3)=(R-0.5*h)*cos(0.5*Theta*(ni-1));
+
+    end
+end
+
+for ni=1:jdy2
+    for nj=jdx+1:jdx
+             
+        co(ni+nj*(jdy1)+(nj-1)*(jdy2),1)=a+2*a*(nj-jdxp-1)+2*A*(jdxp);    
+        co(ni+nj*(jdy1)+(nj-1)*(jdy2),2)=(R-0.5*h)*sin(Theta*(ni-1));   
+        co(ni+nj*(jdy1)+(nj-1)*(jdy2),3)=(R-0.5*h)*cos(Theta*(ni-1));
+
+    end
+end
+
+
+% 
+% % 圆锥壳的全局坐标上表面
+% for ni=1:jdy1  %80 
+%     for nj=1:jdx+1      %11
+%     
+%         coo(ni+(nj-1)*(jdy1+jdy2),1)=2*A*(nj-1)-0.5*h*sin(alpha);       
+%         coo(ni+(nj-1)*(jdy1+jdy2),2)=((R0+2*A*(nj-1)*tan(alpha))+0.5*h*cos(alpha))*sin(0.5*Theta*(ni-1));   
+%         coo(ni+(nj-1)*(jdy1+jdy2),3)=((R0+2*A*(nj-1)*tan(alpha))+0.5*h*cos(alpha))*cos(0.5*Theta*(ni-1));
+% 
+%         
+%     end
+% end
+% for ni=1:jdy2       %40
+%     for nj=1:jdx          %10
+%              
+%         coo(ni+nj*(jdy1)+(nj-1)*(jdy2),1)=A+2*A*(nj-1)-0.5*h*sin(alpha);       
+%         coo(ni+nj*(jdy1)+(nj-1)*(jdy2),2)=((R0+(A+2*A*(nj-1))*tan(alpha))+0.5*h*cos(alpha))*sin(Theta*(ni-1));   
+%         coo(ni+nj*(jdy1)+(nj-1)*(jdy2),3)=((R0+(A+2*A*(nj-1))*tan(alpha))+0.5*h*cos(alpha))*cos(Theta*(ni-1));
+% 
+%     end
+% end
+% 
+% % 圆锥壳的全局坐标下表面
+% for ni=1:jdy1
+%     for nj=1:jdx+1
+%              
+%         co(ni+(nj-1)*(jdy1+jdy2),1)=2*A*(nj-1)+0.5*h*sin(alpha);       
+%         co(ni+(nj-1)*(jdy1+jdy2),2)=((R0+2*A*(nj-1)*tan(alpha))-0.5*h*cos(alpha))*sin(0.5*Theta*(ni-1));   
+%         co(ni+(nj-1)*(jdy1+jdy2),3)=((R0+2*A*(nj-1)*tan(alpha))-0.5*h*cos(alpha))*cos(0.5*Theta*(ni-1));
+% 
+%     end
+% end
+% 
+% for ni=1:jdy2
+%     for nj=1:jdx 
+%              
+%         co(ni+nj*(jdy1)+(nj-1)*(jdy2),1)=A+2*A*(nj-1)+0.5*h*sin(alpha);       
+%         co(ni+nj*(jdy1)+(nj-1)*(jdy2),2)=((R0+(A+2*A*(nj-1))*tan(alpha))-0.5*h*cos(alpha))*sin(Theta*(ni-1));   
+%         co(ni+nj*(jdy1)+(nj-1)*(jdy2),3)=((R0+(A+2*A*(nj-1))*tan(alpha))-0.5*h*cos(alpha))*cos(Theta*(ni-1));
+% 
+%     end
+% end
+% % 圆柱壳的全局坐标上表面
+% for ni=1:jdy1
+%     for nj=jdx+2:jdx1
+% 
+%         coo(ni+(nj-1)*(jdy1+jdy2),1)=2*a*(nj-1)+2*A*(jdx);       
+%         coo(ni+(nj-1)*(jdy1+jdy2),2)=(R+0.5*h)*sin(0.5*Theta*(ni-1));   
+%         coo(ni+(nj-1)*(jdy1+jdy2),3)=(R+0.5*h)*cos(0.5*Theta*(ni-1));
+% 
+%     end
+% end
+% 
+% for ni=1:jdy2
+%     for nj=jdx+1:jdx1-1
+%              
+%         coo(ni+nj*(jdy1)+(nj-1)*(jdy2),1)=a+2*a*(nj-1)+2*A*(jdx);       
+%         coo(ni+nj*(jdy1)+(nj-1)*(jdy2),2)=(R+0.5*h)*sin(Theta*(ni-1));   
+%         coo(ni+nj*(jdy1)+(nj-1)*(jdy2),3)=(R+0.5*h)*cos(Theta*(ni-1));
+% 
+%     end
+% end
+% % 圆柱壳的全局坐标下表面
+% for ni=1:jdy1
+%     for nj=jdx+2:jdx1
+%              
+%         co(ni+(nj-1)*(jdy1+jdy2),1)=2*a*(nj-1)+2*A*(jdx);     
+%         co(ni+(nj-1)*(jdy1+jdy2),2)=(R-0.5*h)*sin(0.5*Theta*(ni-1));   
+%         co(ni+(nj-1)*(jdy1+jdy2),3)=(R-0.5*h)*cos(0.5*Theta*(ni-1));
+% 
+%     end
+% end
+% 
+% for ni=1:jdy2
+%     for nj=jdx+1:jdx1-1
+%              
+%         co(ni+nj*(jdy1)+(nj-1)*(jdy2),1)=a+2*a*(nj-1)+2*A*(jdx);    
+%         co(ni+nj*(jdy1)+(nj-1)*(jdy2),2)=(R-0.5*h)*sin(Theta*(ni-1));   
+%         co(ni+nj*(jdy1)+(nj-1)*(jdy2),3)=(R-0.5*h)*cos(Theta*(ni-1));
+% 
+%     end
+% end
+
+cooo=(coo+co)/2;
+x1=cooo(:,1);
+y1=cooo(:,2);
+z1=cooo(:,3);
+% x2=co(:,1);
+% y2=co(:,2);
+% z2=co(:,3);
+figure(1)
+plot3(x1,y1,z1);
+% hold on
+% plot3(x2,y2,z2);
+% hold on
+
+disp(1:(jdy1*(jdx+1)+jdy*jdx),1:5)=1;     % node displacement
+% constraints=1:jdy1;  % constraints
+% disp(constraints,:)=0;
+
+% disp(1:jdy1,1:3)=0;
+% disp((jdy1*(jdx+1)+jdy*jdx)-jdy1+1:(jdy1*(jdx+1)+jdy*jdx),1:5)=0;
+dof=0;                   %degree of freedom
+
+for ni=1:(jdy1*(jdx+1)+jdy*jdx)
+    for nj=1:5
+        if disp(ni,nj)~=0
+            dof=dof+1;
+            disp(ni,nj)=dof;
+        end
+    end
+end
+jdzb=coo;
+jdzb1=co;
+dybh=en;
+index(1:40)=0; % vector sontaining system dofs of nodes in each element. 
+for loopi=1:jdy*jdx
+    dyhm=loopi;
+     [ek,theta,xv2i,xv1i,xv3i,zmtemp,v3i,D,jtemp]=shellek(E,Niu,t,dyhm,jdzb,jdzb1,dybh);   
+     em=shellem(zmtemp,v3i,density,theta,t,xv2i,xv1i,No_INTpoint_x,No_INTpoint_y,No_INTpoint_z);
+ 
+    for zi=1:8
+        index((zi-1)*5+1)=disp(en(loopi,zi),1);
+        index((zi-1)*5+2)=disp(en(loopi,zi),2);
+        index((zi-1)*5+3)=disp(en(loopi,zi),3);
+        index((zi-1)*5+4)=disp(en(loopi,zi),4);
+        index((zi-1)*5+5)=disp(en(loopi,zi),5);
+
+    end
+    for jx=1:40
+        for jy=1:40
+            if(index(jx)*index(jy)~=0)
+                  k(index(jx),index(jy))=k(index(jx),index(jy))+ek(jx,jy);
+                  m(index(jx),index(jy))=m(index(jx),index(jy))+em(jx,jy);
+            end
+        end
+    end
+end
+
+% [v,d] = eig(k,m);
+% tempd=diag(d);
+% [nd,sortindex]=sort(tempd);
+% v=v(:,sortindex);
+% mode_number=1:15;
+% frequency(mode_number)=sqrt(nd(mode_number))/(2*pi);
+
+% 
+% up_mtrxA=k;up_massA=m;
+% nmodes=25;F=zeros(size(k,1),1);F(1,1)=1;
+% [xvec,freq]= Lanczos(up_mtrxA,up_massA,F,nmodes);
+% [freq1,sortindex]=sort(freq);
+% xvec=xvec(:,sortindex);
+
+% w=884;
+mii=m(1:1200*5,1:1200*5);
+kii=k(1:1200*5,1:1200*5);
+kij=k(1:1200*5,1200*5+1:size(k));
+mij=m(1:1200*5,1200*5+1:size(k));
+I=eye(5*jdy1);
+% DDD=-inv(kii)*kij;
+[xvec,d] =eigs(kii,mii,nn,'SM'); 
+tempd=diag(d);
+[d,sortindex]=sort(tempd);
+xvec=xvec(:,sortindex);
+v=xvec(:,1:nn);
+% 
+% for i=1:size(kii)
+%     for j=1:nn
+%         v(i:j)=v(i,j)/sqrt(mii(i,j));
+%     end
+% end
+
+
+T1=zeros(size(k,1),5*jdy1+nn);
+T1(1:size(kii),1:nn)=v;
+T1(1:size(kii),nn+1:5*jdy1+nn)=-inv(kii)*kij;
+T1(size(kii)+1:size(k),nn+1:5*jdy1+nn)=I;
+% T1(1:1:5*jdy1,1:5*jdy1)=I;
+% T1(5*jdy1+1:size(k,1),1:5*jdy1)=-inv(kii)*kij;
+% T1(5*jdy1+1:size(k,1),5*jdy1+1:5*jdy1+nn)=v;
+KA=T1'*k*T1;
+MA=T1'*m*T1;
+
+% Q=[1 2 3 4;
+%    5 6 7 8;
+%    9 8 7 5;];
+% 
+% W=2*Q;
+% 
+% E=Q/W;
+
