@@ -16,8 +16,8 @@ AA = zeros(8,1);
 
 for i = 1:size(point1,2)
     for j = 1:size(point2,2)
-        
-        [PSI,DPSI] = shape(point1(i),point2(j),8);
+         
+       [PSI,DPSI] = shape(point1(i),point2(j),8);
           XX=0.0;
           YY=0.0;
           ZZ=0.0;
@@ -59,7 +59,7 @@ for i = 1:size(point1,2)
           
             CP=CP-DGDN0; 
             
-            for jj = 1:4
+            for jj = 1:8
                 H(jj,1)=H(jj,1)+PSI(jj)*DGDN;
                 G(jj,1)=G(jj,1)+PSI(jj)*GREEN;
                 AA(jj,1)=AA(jj,1)+PSI(jj)*FACTOR; 

@@ -1,7 +1,7 @@
 clear
 clc
 %% 书上经典例子 1 书上经典例子 2 组合壳带球尾模型 qcl
-no=2;
+no=1;
 % [msh]=ban(); 
 [msh] = qcl(no);
 %% 计算中点坐标并重组单元
@@ -38,7 +38,7 @@ for i = 1:size(elements, 1)
         matching_elements = [matching_elements; i]; % 保存单元号
     end
 end
-%% 输出文件
+ %% 输出文件
 % % % new_nodes(:,:)=new_nodes(:,:)/1000;
 % new_nodes = new_nodes./1000;
 % % 生成行号并拼接到矩阵左侧
@@ -97,7 +97,7 @@ new_nodes=cooo;
 disp(1:size(cooo,1),1:5)=1;     % node displacement
 
 %找到约束面节点编号
-indices = find(cooo(:,3) == 0);
+indices = find(cooo(:,3) > 600);
 rowsToZero = indices;
 disp(rowsToZero, :) = 0;
 % disp(3:5,:)=0;
@@ -179,66 +179,66 @@ for i=1:size(m,1)
     end
 end
 %% 频域响应
-freq = 200;
-W0 = 2*pi*freq;
-% F0 = 1.3083;
-F = zeros(size(k,1),1);
-% indices11 = find (indices1>890);
-% F(indices1*5-2,1) = -1.090278*2;                  % 此处0.8723 是加在r=0.1m处的中点载荷 角点*2
-% F(indices1(indices11,1)*5-2,1) = -1.090278;       % 此处1.090278 是加在r=0.1m处的中点载荷 角点*2
-% F(indices1*5-2,1) = F0;      % 加激励注意自由度
-F(43,1) = 100; 
-% [eta,y,omega1,sdof2] = HarmonicRespt(k,m,omega0,a,b,indices1);  %时域响应
-
-X = inv((k-W0^2*m))*F;
-% X = inv(k)*F;
-X0 = zeros(size(cooo,1)*5,1);
-X0(:,1) = 1; 
-X0(indices*5-4,1) = 0; 
-X0(indices*5-3,1) = 0; 
-X0(indices*5-2,1) = 0; 
-X0(indices*5-1,1) = 0; 
-X0(indices*5-0,1) = 0; 
-
-xj = 1;
-for xi = 1:5*size(cooo,1)
-   if X0(xi,1) ~= 0    
-       X0 (xi,1) = X(xj,1);
-       xj = xj+1;
-   end
-end
-V = X0*W0;
-vn = zeros(size(cooo,1),1);
-for vi = 1:size(cooo,1)
-    vn(vi,1) = V(5*vi-4,1)*nodeNormals(vi,1)+V(5*vi-3,1)*nodeNormals(vi,2)+V(5*vi-2,1)*nodeNormals(vi,3);
-end
+% freq = 200;
+% W0 = 2*pi*freq;
+% % F0 = 1.3083;
+% F = zeros(size(k,1),1);
+% % indices11 = find (indices1>890);
+% % F(indices1*5-2,1) = -1.090278*2;                  % 此处0.8723 是加在r=0.1m处的中点载荷 角点*2
+% % F(indices1(indices11,1)*5-2,1) = -1.090278;       % 此处1.090278 是加在r=0.1m处的中点载荷 角点*2
+% % F(indices1*5-2,1) = F0;      % 加激励注意自由度
+% F(43,1) = 100; 
+% % [eta,y,omega1,sdof2] = HarmonicRespt(k,m,omega0,a,b,indices1);  %时域响应
+% 
+% X = inv((k-W0^2*m))*F;
+% % X = inv(k)*F;
+% X0 = zeros(size(cooo,1)*5,1);
+% X0(:,1) = 1; 
+% X0(indices*5-4,1) = 0; 
+% X0(indices*5-3,1) = 0; 
+% X0(indices*5-2,1) = 0; 
+% X0(indices*5-1,1) = 0; 
+% X0(indices*5-0,1) = 0; 
+% 
+% xj = 1;
+% for xi = 1:5*size(cooo,1)
+%    if X0(xi,1) ~= 0    
+%        X0 (xi,1) = X(xj,1);
+%        xj = xj+1;
+%    end
+% end
+% V = X0*W0;
+% vn = zeros(size(cooo,1),1);
+% for vi = 1:size(cooo,1)
+%     vn(vi,1) = V(5*vi-4,1)*nodeNormals(vi,1)+V(5*vi-3,1)*nodeNormals(vi,2)+V(5*vi-2,1)*nodeNormals(vi,3);
+% end
 %%
-% 参数设置
-start_row = 3566;
-end_row = 6231;
-
-% ① 读取原始文件为逐行 cell
-fid = fopen('example4.dat', 'r');
-lines = textscan(fid, '%s', 'Delimiter', '\n');
-fclose(fid);
-lines = lines{1};
-
-% ② 构造要替换的新行内容
-new_lines = cell(end_row - start_row + 1, 1);
-for i = 1:length(new_lines)
-    row_num =  i ;
-    new_lines{i} = sprintf('%d,0,0,1,0,%.10f,0', row_num, vn(i,1));
-end
-
-% ③ 替换目标行
-lines(start_row:end_row) = new_lines;
-
-% ④ 写回文件
-fid = fopen('example66.dat', 'w');
-for i = 1:length(lines)
-    fprintf(fid, '%s\n', lines{i});
-end
-fclose(fid);
+% % 参数设置
+% start_row = 3566;
+% end_row = 6231;
+% 
+% % ① 读取原始文件为逐行 cell
+% fid = fopen('example4.dat', 'r');
+% lines = textscan(fid, '%s', 'Delimiter', '\n');
+% fclose(fid);
+% lines = lines{1};
+% 
+% % ② 构造要替换的新行内容
+% new_lines = cell(end_row - start_row + 1, 1);
+% for i = 1:length(new_lines)
+%     row_num =  i ;
+%     new_lines{i} = sprintf('%d,0,0,1,0,%.10f,0', row_num, vn(i,1));
+% end
+% 
+% % ③ 替换目标行
+% lines(start_row:end_row) = new_lines;
+% 
+% % ④ 写回文件
+% fid = fopen('example66.dat', 'w');
+% for i = 1:length(lines)
+%     fprintf(fid, '%s\n', lines{i});
+% end
+% fclose(fid);
 
 % % 输出边界法向振速 文件shuju3.txt储存
 % [rowCount, ~] = size(vn);       % 获取矩阵行数
@@ -274,9 +274,9 @@ Frequency=Frequency';
 %% 绘制模态图
 close all
 xvec = v;
-for i =1:12
-    
-    mn = 6+2*i;
+% for i =1:12
+    mn = 10;
+%     mn = 6+2*i;
     xx=xvec(1:5:size(k,1)-4,mn);
     yy=xvec(2:5:size(k,1)-3,mn);
     zz=xvec(3:5:size(k,1)-2,mn);
@@ -314,7 +314,7 @@ for i =1:12
 %     lighting gouraud         % 平滑光照模型
 %     camlight('headlight');   % 光源随相机旋转
 %     material dull            % 材质属性（可选 smooth / shiny / dull）
-end
+% end
 % % P=23;                                %模态阶数
 % for i=1:22
 % %     mn=50;  

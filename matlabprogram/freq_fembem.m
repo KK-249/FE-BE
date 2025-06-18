@@ -6,7 +6,7 @@ no=2;
 [msh] = qcl(no);
 nodes = msh.POS(:,:);   
 elements = msh.QUADS(:,1:4);
-
+elements = elements(:, [1, 4, 3, 2]); 
 % 调用生成八结点单元的函数
 [new_nodes,eight_node_elements]=generateEightNodeElements(nodes, elements);
 %% FEM部分
@@ -82,12 +82,14 @@ for i = 1:size(nodeNormals,1)
     TT(3*i-0,i) = nodeNormals(i,3);
 end
 %% 扫频计算
-freq0 = 1;
+freq0 = 151;
 step = 1;
-freq = 1000;
+freq = 235;
 
 for fi = freq0:step:freq
     
+%     fi = 1;
+
     [Ma] = add_mass(fi,new_nodes,eight_node_elements);
     Ma1 = TT*Ma*TT';
     [NewMat] =  expandDiagonalMatrix(Ma1,nodeNormals);
@@ -101,6 +103,22 @@ for fi = freq0:step:freq
         
         end
     end
+    
+%     nm=50;
+% 
+%     sigma = 1e-3;         % 指定一个小的非零移位值
+%     opts = struct('disp', 0);
+%     [v,d] = eigs(k0, m0, nm, sigma, opts);
+%     % [v,d] =eigs(k,m,nm,'SM');  %v特征向量 d特征值
+%     tempd=diag(d);
+%     [d,sortindex]=sort(tempd);
+%     omega=sqrt(d);
+%     v=v(:,sortindex);
+%     mode_number=1:nm;
+%     frequency(mode_number)=sqrt(d(mode_number))/(2*pi);
+%     Frequency=real(frequency);
+%     Frequency=Frequency';
+%     
     
     W0 = 2*pi*fi;
     F = zeros(size(k,1),1);
