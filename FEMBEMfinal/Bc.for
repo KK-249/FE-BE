@@ -1,0 +1,59 @@
+      SUBROUTINE BC
+      COMMON /BG/BIG
+      COMMON /BCC/CA(8,4000),CB(8,4000),CC(8,4000)
+      COMMON /CONTR/NNODE,NELEM
+      COMMON /ELEM/NODE(8,4000)
+      COMMON /SOL/SP(4000),VN(8,4000)
+      COMMON /FRE/FREQ,WN,IFR
+      COMPLEX BIG,CA,CB,CC,SP,VN
+      COMPLEX TM,TP
+      LOGICAL ALARM
+C
+      BIG=CMPLX(1.0E+15,1.0E+15)
+      DO 10 I=1,NNODE
+        SP(I)=BIG
+10    CONTINUE
+C
+      DO 20 J=1,8
+        DO 20 K=1,NELEM
+          VN(J,K)=BIG
+20    CONTINUE
+C
+      IFR = 2
+      IF(IFR.EQ.1) CALL RBC
+      IF(IFR.EQ.2) CALL JBC
+C
+      ALARM=.FALSE.
+      DO 50 K=1,NELEM
+        I34=8
+        IF(NODE(3,K).EQ.NODE(4,K)) I34=3
+        DO 50 J=1,I34
+	  NOD=NODE(J,K)
+	  IF(CA(J,K).EQ.BIG.AND.CB(J,K).EQ.BIG) THEN
+	    WRITE(6,*) 'B.C. NOT SPECIFIED ON ELEMENT #',K
+	    ALARM=.TRUE.
+	    
+	  END IF
+	  IF(CA(J,K).EQ.0.0.AND.CB(J,K).EQ.0.0) THEN
+	    WRITE(6,*) 'CA=0 AND CB=0 ON ELEMENT #',K
+	    ALARM=.TRUE.
+	    
+	  END IF
+	  IF(CB(J,K).EQ.0.0) THEN
+	    TM=SP(NOD)
+	    TP=CC(J,K)/CA(J,K)
+	    SP(NOD)=TP
+	    IF(TM.NE.BIG.AND.TP.NE.TM) THEN
+	      WRITE(6,*) 'MORE THAN ONE PRESSURE AT NODE #',NOD
+	      ALARM=.TRUE.
+	      
+	    END IF
+          END IF
+50    CONTINUE  
+C
+C     PRINT OUT BC's
+C
+
+      IF(ALARM) STOP
+      RETURN
+      END
